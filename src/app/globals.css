@@ -4,33 +4,33 @@
   Using a consistent Zinc-based palette for a premium feel.
 */
 :root {
-  /* ENFORCED DARK THEME (Tri-Color: Blue/Yellow/Red) */
-  /* Backgrounds: Slate 900 (Balanced Dark, not black) */
-  --background: #0f172a;
-  --foreground: #f8fafc;
-  /* Slate 50 */
+  /* ENFORCED DARK THEME (Professional: Teal/Gray/Gold) */
+  /* Backgrounds: Dark Slate Gray (Balanced Dark, not black) */
+  --background: #1e2a2f;
+  --foreground: #e0e6e8;
+  /* Light Gray */
 
-  /* Cards: Slate 800 (Subtle separation) */
-  --card: #1e293b;
-  --card-foreground: #f8fafc;
+  /* Cards: Charcoal Gray (Subtle separation) */
+  --card: #2c3e44;
+  --card-foreground: #e0e6e8;
 
-  --primary: #f8fafc;
-  --primary-foreground: #0f172a;
+  --primary: #4fd1c5;
+  --primary-foreground: #1e2a2f;
 
-  --muted: #64748b;
-  /* Slate 500 */
-  --border: #334155;
-  /* Slate 700 */
+  --muted: #94a3b8;
+  /* Cool Gray */
+  --border: #3a4a52;
+  /* Dark Gray */
 
   /* TRI-COLOR ACCENTS */
-  --accent: #3b82f6;
-  /* Blue 500 (Primary Action) */
-  --accent-foreground: #ffffff;
+  --accent: #d4af37;
+  /* Gold (Primary Action) */
+  --accent-foreground: #1e2a2f;
 
-  --gold: #fbbf24;
-  /* Amber 400 (Highlights/Yellow) */
-  --red: #ef4444;
-  /* Red 500 (Alerts/Accents) */
+  --gold: #d4af37;
+  /* Gold (Highlights) */
+  --red: #e53e3e;
+  /* Soft Red (Alerts/Accents) */
 }
 
 /* 
