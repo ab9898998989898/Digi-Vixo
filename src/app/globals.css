@@ -4,62 +4,43 @@
   Using a consistent Zinc-based palette for a premium feel.
 */
 :root {
-  /* LIGHT MODE */
-  --background: #ffffff;
-  /* Pure white for clarity */
-  --foreground: #09090b;
-  /* Zinc 950 - Softer than pure black */
+  /* ENFORCED DARK THEME (Tri-Color: Blue/Yellow/Red) */
+  /* Backgrounds: Slate 900 (Balanced Dark, not black) */
+  --background: #0f172a;
+  --foreground: #f8fafc;
+  /* Slate 50 */
 
-  --card: #f4f4f5;
-  /* Zinc 100 - Subtle distinction from bg */
-  --card-foreground: #09090b;
+  /* Cards: Slate 800 (Subtle separation) */
+  --card: #1e293b;
+  --card-foreground: #f8fafc;
 
-  --primary: #18181b;
-  /* Zinc 900 */
-  --primary-foreground: #fafafa;
+  --primary: #f8fafc;
+  --primary-foreground: #0f172a;
 
-  --muted: #71717a;
-  /* Zinc 500 - Readable but secondary */
-  --border: #e4e4e7;
-  /* Zinc 200 - Crisp borders */
+  --muted: #64748b;
+  /* Slate 500 */
+  --border: #334155;
+  /* Slate 700 */
 
-  /* ACCENTS */
+  /* TRI-COLOR ACCENTS */
   --accent: #3b82f6;
-  /* Blue 500 - Bright and inviting */
+  /* Blue 500 (Primary Action) */
   --accent-foreground: #ffffff;
 
-  --gold: #d97706;
-  /* Amber 600 - Rich Gold */
+  --gold: #fbbf24;
+  /* Amber 400 (Highlights/Yellow) */
+  --red: #ef4444;
+  /* Red 500 (Alerts/Accents) */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* DARK MODE - SoftBiz Replica */
-    --background: #020306;
-    /* Deepest Black-Blue */
-    --foreground: #ffffff;
-    /* Pure White */
-
-    --card: #0a0b10;
-    /* Slightly lighter for cards */
-    --card-foreground: #ffffff;
-
-    --primary: #ffffff;
-    --primary-foreground: #020306;
-
-    --muted: #9ca3af;
-    /* Gray 400 */
-    --border: #1f2937;
-    /* Gray 800 */
-
-    /* ACCENTS */
-    --accent: #6366f1;
-    /* Indigo 500 (Base for gradients) */
-    --accent-foreground: #ffffff;
-
-    --gold: #fbbf24;
-    /* Retain Gold for success states */
-  }
+/* 
+   We keep the media query block empty or remove it because 
+   we want the dark variables to be the DEFAULT for everyone.
+   (Incognito/Light Mode users will now see the dark theme)
+*/
+@media (prefers-color-scheme: light) {
+  /* Optional: If we ever WANTED a light mode, we'd put it here. 
+     But for now, we enforce dark. */
 }
 
 /* TAILWIND THEME CONFIG */
@@ -80,6 +61,7 @@
   --color-border: var(--border);
 
   --color-gold: var(--gold);
+  --color-red: var(--red);
 
   /* Linking fonts correctly */
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
