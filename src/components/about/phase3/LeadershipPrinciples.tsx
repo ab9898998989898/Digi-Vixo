@@ -1,4 +1,16 @@
+"use client";
+
+import { useRef } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+if (typeof window !== "undefined") {
+    gsap.registerPlugin(ScrollTrigger, useGSAP);
+}
+
 export default function LeadershipPrinciples() {
+    const containerRef = useRef(null);
     const principles = [
         {
             title: "Customer Obsession",
@@ -22,8 +34,22 @@ export default function LeadershipPrinciples() {
         }
     ];
 
+    useGSAP(() => {
+        gsap.from(".principle-card", {
+            scrollTrigger: {
+                trigger: containerRef.current,
+                start: "top 75%",
+            },
+            y: 40,
+            opacity: 0,
+            duration: 0.8,
+            stagger: 0.15,
+            ease: "power2.out"
+        });
+    }, { scope: containerRef });
+
     return (
-        <section className="py-24 px-6 bg-neutral-950 text-white">
+        <section ref={containerRef} className="py-24 px-6 bg-neutral-950 text-white">
             <div className="max-w-7xl mx-auto space-y-16">
                 <div className="text-center">
                     <h2 className="text-4xl font-bold tracking-tighter mb-4">Leadership Principles</h2>
@@ -34,14 +60,14 @@ export default function LeadershipPrinciples() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {principles.map((p, i) => (
-                        <div key={i} className="p-8 rounded-2xl bg-neutral-900 border border-neutral-800 hover:border-gold/30 transition-colors">
+                        <div key={i} className="principle-card p-8 rounded-2xl bg-neutral-900 border border-neutral-800 hover:border-gold/30 transition-colors">
                             <h3 className="text-xl font-bold mb-4 text-gold">{p.title}</h3>
                             <p className="text-neutral-400 text-sm leading-relaxed">
                                 {p.desc}
                             </p>
                         </div>
                     ))}
-                    <div className="p-8 rounded-2xl bg-gradient-to-br from-accent to-blue-900 flex items-center justify-center text-center">
+                    <div className="principle-card p-8 rounded-2xl bg-gradient-to-br from-accent to-blue-900 flex items-center justify-center text-center">
                         <h3 className="text-2xl font-bold">Join the Mission.</h3>
                     </div>
                 </div>

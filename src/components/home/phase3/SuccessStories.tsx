@@ -1,8 +1,17 @@
 "use client";
 
 import { ArrowRight, Star } from "lucide-react";
+import { useRef } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+if (typeof window !== "undefined") {
+    gsap.registerPlugin(ScrollTrigger, useGSAP);
+}
 
 export default function SuccessStories() {
+    const containerRef = useRef(null);
     const stories = [
         {
             brand: "Luminary Skin",
@@ -30,8 +39,24 @@ export default function SuccessStories() {
         }
     ];
 
+    useGSAP(() => {
+        gsap.from(".story-card", {
+            scrollTrigger: {
+                trigger: containerRef.current,
+
+                start: "top 70%",
+            },
+
+            y: 60,
+            opacity: 0,
+            duration: 1,
+            stagger: 0.2,
+            ease: "power3.out"
+        });
+    }, { scope: containerRef });
+
     return (
-        <section className="py-32 px-6 bg-background">
+        <section ref={containerRef} className="py-32 px-6 bg-background">
             <div className="max-w-7xl mx-auto mb-20 flex flex-col md:flex-row justify-between items-end gap-8">
                 <div className="space-y-4">
                     <h2 className="text-sm font-bold uppercase tracking-widest text-accent">Success Stories</h2>
@@ -44,7 +69,7 @@ export default function SuccessStories() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {stories.map((story, i) => (
-                    <div key={i} className="p-10 rounded-3xl bg-neutral-50 dark:bg-neutral-900/50 border border-neutral-200 dark:border-neutral-800 hover:border-accent/50 transition-colors group flex flex-col justify-between h-full">
+                    <div key={i} className="story-card p-10 rounded-3xl bg-neutral-50 dark:bg-neutral-900/50 border border-neutral-200 dark:border-neutral-800 hover:border-accent/50 transition-colors group flex flex-col justify-between h-full">
                         <div className="space-y-8">
                             <div className="flex gap-1">
                                 {[1, 2, 3, 4, 5].map(s => <Star key={s} className="w-5 h-5 fill-gold text-gold" />)}

@@ -1,12 +1,44 @@
 "use client";
 
 import { CheckCircle2 } from "lucide-react";
+import { useRef } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+if (typeof window !== "undefined") {
+    gsap.registerPlugin(ScrollTrigger, useGSAP);
+}
 
 export default function DropshippingDeepDive() {
+    const containerRef = useRef(null);
+
+    useGSAP(() => {
+        const tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: containerRef.current,
+                start: "top 75%",
+            }
+        });
+
+        tl.from(".left-content", {
+            x: -50,
+            opacity: 0,
+            duration: 0.8,
+            ease: "power3.out"
+        })
+            .from(".right-content", {
+                x: 50,
+                opacity: 0,
+                duration: 0.8,
+                ease: "power3.out"
+            }, "-=0.6");
+    }, { scope: containerRef });
+
     return (
-        <section className="py-24 px-6 bg-white dark:bg-neutral-900 border-t border-neutral-200 dark:border-neutral-800">
+        <section ref={containerRef} className="py-24 px-6 bg-white dark:bg-neutral-900 border-t border-neutral-200 dark:border-neutral-800">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
-                <div className="space-y-8">
+                <div className="left-content space-y-8">
                     <h3 className="text-3xl font-bold text-primary">The Technical Architecture</h3>
                     <div className="prose dark:prose-invert max-w-none text-neutral-600 dark:text-neutral-400">
                         <p>
@@ -29,7 +61,7 @@ export default function DropshippingDeepDive() {
                     </div>
                 </div>
 
-                <div className="bg-neutral-50 dark:bg-black p-10 rounded-3xl border border-neutral-200 dark:border-neutral-800">
+                <div className="right-content bg-neutral-50 dark:bg-black p-10 rounded-3xl border border-neutral-200 dark:border-neutral-800">
                     <h3 className="text-2xl font-bold mb-6">Integration Capabilities</h3>
                     <ul className="space-y-4">
                         {[

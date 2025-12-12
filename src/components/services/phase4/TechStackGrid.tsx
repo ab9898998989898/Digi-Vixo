@@ -1,8 +1,17 @@
 "use client";
 
 import { Cpu, Server, Database, Cloud } from "lucide-react";
+import { useRef } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+if (typeof window !== "undefined") {
+    gsap.registerPlugin(ScrollTrigger, useGSAP);
+}
 
 export default function TechStackGrid() {
+    const containerRef = useRef(null);
     const stack = [
         {
             category: "Frontend Architecture",
@@ -26,8 +35,22 @@ export default function TechStackGrid() {
         }
     ];
 
+    useGSAP(() => {
+        gsap.from(".tech-card", {
+            scrollTrigger: {
+                trigger: containerRef.current,
+                start: "top 80%",
+            },
+            y: 50,
+            opacity: 0,
+            duration: 0.8,
+            stagger: 0.15,
+            ease: "power3.out"
+        });
+    }, { scope: containerRef });
+
     return (
-        <section className="py-24 px-6 bg-neutral-50 dark:bg-card border-y border-neutral-200 dark:border-white/10">
+        <section ref={containerRef} className="py-24 px-6 bg-neutral-50 dark:bg-card border-y border-neutral-200 dark:border-white/10">
             <div className="max-w-7xl mx-auto space-y-12">
                 <div className="text-center">
                     <h2 className="text-3xl font-bold mb-4">Proprietary Tech Stack</h2>
@@ -38,7 +61,7 @@ export default function TechStackGrid() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {stack.map((group, i) => (
-                        <div key={i} className="bg-white dark:bg-[#151D2F] p-6 rounded-2xl border border-neutral-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
+                        <div key={i} className="tech-card bg-white dark:bg-[#151D2F] p-6 rounded-2xl border border-neutral-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
                             <div className="flex items-center gap-3 mb-6">
                                 <div className="p-3 bg-neutral-100 dark:bg-white/5 rounded-lg">
                                     {group.icon}

@@ -1,6 +1,33 @@
+"use client";
+
+import { useRef } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+if (typeof window !== "undefined") {
+    gsap.registerPlugin(ScrollTrigger, useGSAP);
+}
+
 export default function SLASpecs() {
+    const containerRef = useRef(null);
+
+    useGSAP(() => {
+        gsap.from("tr", {
+            scrollTrigger: {
+                trigger: containerRef.current,
+                start: "top 80%",
+            },
+            y: 30,
+            opacity: 0,
+            duration: 0.6,
+            stagger: 0.1,
+            ease: "power2.out"
+        });
+    }, { scope: containerRef });
+
     return (
-        <section className="py-24 px-6 bg-white dark:bg-[#050812]">
+        <section ref={containerRef} className="py-24 px-6 bg-white dark:bg-[#050812]">
             <div className="max-w-5xl mx-auto">
                 <h2 className="text-3xl font-bold mb-8 text-center">Service Level Agreement (SLA)</h2>
 
