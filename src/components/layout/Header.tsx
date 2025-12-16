@@ -24,7 +24,7 @@ export default function Header() {
         <header className="fixed top-0 left-0 w-full z-50 bg-black/90 backdrop-blur-md border-b border-white/10 text-white py-4 px-6 md:px-8 flex items-center justify-between">
             <Link href="/" className="relative h-10 w-32 md:h-12 md:w-48 transition-opacity hover:opacity-90">
                 <Image
-                    src="/brand-logo.png"
+                    src="/og-logo.png"
                     alt="DIGIVIXO"
                     fill
                     className="object-contain object-left"
