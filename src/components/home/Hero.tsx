@@ -49,21 +49,21 @@ export default function Hero() {
 
             <div className="max-w-5xl mx-auto space-y-10 z-10">
                 <div className="overflow-hidden">
-                    <h1 ref={titleRef} className="text-7xl md:text-9xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-neutral-900 to-neutral-500 dark:from-white dark:to-neutral-600 leading-[1.1] pb-4">
-                        Command <br /> Global Markets.
+                    <h1 ref={titleRef} className="text-7xl md:text-9xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-neutral-400 leading-[1.1] pb-4">
+                        Architects of <br /> Digital Dominance.
                     </h1>
                 </div>
 
-                <p ref={subtitleRef} className="text-xl md:text-2xl text-neutral-600 dark:text-neutral-400 max-w-3xl mx-auto leading-relaxed opacity-0">
-                    The definitive partner for elite dropshipping, wholesale scaling, and digital asset proliferation. We engineer the infrastructure for your 8-figure ambition.
+                <p ref={subtitleRef} className="text-xl md:text-2xl text-neutral-400 max-w-3xl mx-auto leading-relaxed opacity-0">
+                    Digivixo empowers elite enterprises to scale through precision-engineered dropshipping infrastructure, automated wholesale logistics, and high-yield digital asset management.
                 </p>
 
-                <div ref={ctaRef} className="flex flex-col md:flex-row gap-6 justify-center items-center opacity-0 pt-4">
-                    <a href="https://shopify.com" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto px-10 py-5 bg-black text-white dark:bg-white dark:text-black rounded-full text-lg font-medium tracking-wide hover:scale-105 transition-transform shadow-2xl shadow-black/20 dark:shadow-white/10">
-                        Launch Your Empire
+                <div ref={ctaRef} className="flex flex-col md:flex-row gap-6 justify-center items-center opacity-0 pt-4 mb-2">
+                    <a href="/services" className="w-full md:w-auto px-10 py-5 bg-accent text-black rounded-full text-lg font-bold tracking-wide hover:scale-105 transition-transform shadow-[0_0_40px_-10px_rgba(212,175,55,0.3)]">
+                        Explore Solutions
                     </a>
-                    <a href="/contact" className="w-full md:w-auto px-10 py-5 border border-neutral-300 dark:border-neutral-700 rounded-full text-lg font-medium tracking-wide hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors backdrop-blur-sm">
-                        Inquire Collaboration
+                    <a href="/contact" className="w-full md:w-auto px-10 py-5 border border-white/20 rounded-full text-lg font-medium tracking-wide hover:bg-white/10 transition-colors backdrop-blur-sm text-white">
+                        Partner With Us
                     </a>
                 </div>
             </div>

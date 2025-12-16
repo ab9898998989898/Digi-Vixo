@@ -1,6 +1,7 @@
 "use client";
 
 import { User, Linkedin, Twitter, Mail } from "lucide-react";
+import Image from "next/image";
 
 export default function TeamDetails() {
     return (
@@ -10,7 +11,7 @@ export default function TeamDetails() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
                     <div className="space-y-8">
                         <div className="aspect-[3/4] bg-neutral-800 rounded-2xl overflow-hidden relative group">
-                            <User className="w-full h-full text-neutral-600 p-20 group-hover:scale-105 transition-transform duration-700" />
+                        <Image src="/abdullah.jpeg" alt="Abdullah" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
                                 <div className="flex gap-4 text-white">
                                     <a href="#" className="hover:text-neutral-300 transition-colors"><Linkedin /></a>
@@ -44,16 +45,16 @@ export default function TeamDetails() {
                                 <h4 className="text-xl font-bold mb-4 text-white">Areas of Expertise</h4>
                                 <ul className="grid grid-cols-2 gap-4 text-sm text-neutral-400">
                                     <li className="flex items-center gap-2">
-                                        <div className="w-2 h-2 bg-emerald-500 rounded-full" /> Supply Chain Arch.
+                                        <div className="w-2 h-2 bg-accent rounded-full" /> Supply Chain Arch.
                                     </li>
                                     <li className="flex items-center gap-2">
-                                        <div className="w-2 h-2 bg-emerald-500 rounded-full" /> Systems Integration
+                                        <div className="w-2 h-2 bg-accent rounded-full" /> Systems Integration
                                     </li>
                                     <li className="flex items-center gap-2">
-                                        <div className="w-2 h-2 bg-emerald-500 rounded-full" /> Vendor Relations
+                                        <div className="w-2 h-2 bg-accent rounded-full" /> Vendor Relations
                                     </li>
                                     <li className="flex items-center gap-2">
-                                        <div className="w-2 h-2 bg-emerald-500 rounded-full" /> Data Analytics
+                                        <div className="w-2 h-2 bg-accent rounded-full" /> Data Analytics
                                     </li>
                                 </ul>
                             </div>
@@ -65,7 +66,7 @@ export default function TeamDetails() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start md:grid-flow-col-dense">
                     <div className="space-y-8 pt-8 md:col-start-2">
                         <div className="aspect-[3/4] bg-neutral-800 rounded-2xl overflow-hidden relative group">
-                            <User className="w-full h-full text-neutral-600 p-20 group-hover:scale-105 transition-transform duration-700" />
+                            <Image src="/hassan.jpeg" alt="Hassan" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
                                 <div className="flex gap-4 text-white">
                                     <a href="#" className="hover:text-neutral-300 transition-colors"><Linkedin /></a>
@@ -99,16 +100,16 @@ export default function TeamDetails() {
                                 <h4 className="text-xl font-bold mb-4 text-white">Areas of Expertise</h4>
                                 <ul className="grid grid-cols-2 gap-4 text-sm text-neutral-400">
                                     <li className="flex items-center gap-2">
-                                        <div className="w-2 h-2 bg-blue-500 rounded-full" /> Market Strategy
+                                        <div className="w-2 h-2 bg-accent rounded-full" /> Market Strategy
                                     </li>
                                     <li className="flex items-center gap-2">
-                                        <div className="w-2 h-2 bg-blue-500 rounded-full" /> Product Sourcing
+                                        <div className="w-2 h-2 bg-accent rounded-full" /> Product Sourcing
                                     </li>
                                     <li className="flex items-center gap-2">
-                                        <div className="w-2 h-2 bg-blue-500 rounded-full" /> Brand Development
+                                        <div className="w-2 h-2 bg-accent rounded-full" /> Brand Development
                                     </li>
                                     <li className="flex items-center gap-2">
-                                        <div className="w-2 h-2 bg-blue-500 rounded-full" /> Education & Training
+                                        <div className="w-2 h-2 bg-accent rounded-full" /> Education & Training
                                     </li>
                                 </ul>
                             </div>

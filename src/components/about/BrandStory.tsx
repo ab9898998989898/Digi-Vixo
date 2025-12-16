@@ -27,7 +27,7 @@ export default function BrandStory() {
         <section ref={containerRef} className="py-24 px-6 md:px-12 max-w-7xl mx-auto">
             <div className="space-y-12">
                 <h1 className="story-text text-5xl md:text-7xl font-bold tracking-tighter">
-                    We are <span className="text-neutral-500">Digivixo.</span>
+                    We are <span className="text-accent">Digivixo.</span>
                 </h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-lg md:text-xl leading-relaxed text-neutral-600 dark:text-neutral-300">
                     <p className="story-text">

@@ -40,10 +40,10 @@ export default function ImpactMetrics() {
     }, []);
 
     const metrics = [
-        { label: "Active Suppliers", value: 500, suffix: "+", color: "text-accent" },
-        { label: "Countries Served", value: 42, suffix: "", color: "text-gold" },
-        { label: "Orders Processed", value: 1000000, suffix: "+", color: "text-emerald-500" },
-        { label: "Revenue Generated for Clients", value: 150, suffix: "M+", color: "text-purple-500" }
+        { label: "Active Suppliers", value: 15, suffix: "+", color: "text-accent" },
+        { label: "Countries Served", value: 10, suffix: "+", color: "text-gold" },
+        { label: "Orders Processed", value: 1000, suffix: "+", color: "text-emerald-500" },
+        { label: "Revenue Generated for Clients", value: 40, suffix: "K+", color: "text-purple-500" }
     ];
 
     return (

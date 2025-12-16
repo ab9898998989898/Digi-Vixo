@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
@@ -16,9 +17,15 @@ export default function Header() {
     const pathname = usePathname();
 
     return (
-        <header className="fixed top-0 left-0 w-full z-50 mix-blend-difference text-white py-6 px-8 flex items-center justify-between">
-            <Link href="/" className="text-2xl font-bold tracking-tighter">
-                DIGIVIXO
+        <header className="fixed top-0 left-0 w-full z-50 bg-black/90 backdrop-blur-md border-b border-white/10 text-white py-4 px-8 flex items-center justify-between">
+            <Link href="/" className="relative h-12 w-48 transition-opacity hover:opacity-90">
+                <Image
+                    src="/brand-logo.png"
+                    alt="DIGIVIXO"
+                    fill
+                    className="object-contain object-left"
+                    priority
+                />
             </Link>
             <nav className="hidden md:flex gap-8">
                 {links.map((link) => (
@@ -26,8 +33,8 @@ export default function Header() {
                         key={link.href}
                         href={link.href}
                         className={cn(
-                            "text-sm uppercase tracking-widest hover:opacity-70 transition-opacity",
-                            pathname === link.href && "opacity-100 underline underline-offset-4"
+                            "text-sm uppercase tracking-widest hover:text-accent transition-colors",
+                            pathname === link.href ? "text-accent" : "text-white/80"
                         )}
                     >
                         {link.name}
@@ -36,7 +43,7 @@ export default function Header() {
             </nav>
             <Link
                 href="/contact"
-                className="hidden md:block border border-white px-6 py-2 rounded-full text-sm uppercase tracking-widest hover:bg-white hover:text-black transition-colors"
+                className="hidden md:block px-6 py-2 rounded-full text-sm uppercase tracking-widest bg-white text-black hover:bg-accent hover:text-black transition-colors font-medium"
             >
                 Get in Touch
             </Link>

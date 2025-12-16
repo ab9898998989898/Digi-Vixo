@@ -4,33 +4,27 @@
   Using a consistent Zinc-based palette for a premium feel.
 */
 :root {
-  /* ENFORCED DARK THEME (Professional: Teal/Gray/Gold) */
-  /* Backgrounds: Dark Slate Gray (Balanced Dark, not black) */
-  --background: #1e2a2f;
+  /* ENFORCED DARK THEME (Professional: Rich Black/Gold) */
+  /* Backgrounds: Deep Black for maximum contrast with Gold */
+  --background: #0a0a0a;
   --foreground: #e0e6e8;
-  /* Light Gray */
 
-  /* Cards: Charcoal Gray (Subtle separation) */
-  --card: #2c3e44;
+  /* Cards: Dark Gray */
+  --card: #141414;
   --card-foreground: #e0e6e8;
 
-  --primary: #4fd1c5;
-  --primary-foreground: #1e2a2f;
+  --primary: #d4af37; /* Gold as primary */
+  --primary-foreground: #000000;
 
-  --muted: #94a3b8;
-  /* Cool Gray */
-  --border: #3a4a52;
-  /* Dark Gray */
+  --muted: #404040;
+  --border: #262626;
 
-  /* TRI-COLOR ACCENTS */
+  /* ACCENTS */
   --accent: #d4af37;
-  /* Gold (Primary Action) */
-  --accent-foreground: #1e2a2f;
+  --accent-foreground: #000000;
 
   --gold: #d4af37;
-  /* Gold (Highlights) */
   --red: #e53e3e;
-  /* Soft Red (Alerts/Accents) */
 }
 
 /* 

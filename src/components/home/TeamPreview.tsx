@@ -16,30 +16,30 @@ export default function TeamPreview() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                     {/* Abdullah */}
-                    <div className="p-8 rounded-2xl bg-neutral-800/50 border border-neutral-700 hover:bg-neutral-800 transition-colors text-left space-y-6">
-                        <div className="w-16 h-16 rounded-full bg-neutral-700 flex items-center justify-center">
-                            <User className="w-8 h-8 text-neutral-400" />
+                    <div className="p-8 rounded-2xl bg-neutral-900 border border-white/10 hover:border-accent/50 transition-colors text-left space-y-6 group">
+                        <div className="w-16 h-16 rounded-full bg-neutral-800 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+                            <User className="w-8 h-8 text-neutral-400 group-hover:text-accent transition-colors" />
                         </div>
                         <div>
-                            <h3 className="text-2xl font-bold">Abdullah</h3>
-                            <p className="text-neutral-400 text-sm uppercase tracking-widest">Co-Founder</p>
+                            <h3 className="text-2xl font-bold text-white">Abdullah</h3>
+                            <p className="text-accent text-sm uppercase tracking-widest font-bold">Chief Executive Officer</p>
                         </div>
-                        <p className="text-neutral-300 leading-relaxed">
-                            Driving the strategic vision and technical innovation at Digivixo. Expert in scaling digital infrastructures.
+                        <p className="text-neutral-400 leading-relaxed">
+                            A strategic architect of digital commerce ecosystems. Abdullah specializes in high-velocity scaling, overseeing the infrastructure that powers Digivixo’s global logistics network.
                         </p>
                     </div>
 
                     {/* Hassan */}
-                    <div className="p-8 rounded-2xl bg-neutral-800/50 border border-neutral-700 hover:bg-neutral-800 transition-colors text-left space-y-6">
-                        <div className="w-16 h-16 rounded-full bg-neutral-700 flex items-center justify-center">
-                            <User className="w-8 h-8 text-neutral-400" />
+                    <div className="p-8 rounded-2xl bg-neutral-900 border border-white/10 hover:border-accent/50 transition-colors text-left space-y-6 group">
+                        <div className="w-16 h-16 rounded-full bg-neutral-800 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+                            <User className="w-8 h-8 text-neutral-400 group-hover:text-accent transition-colors" />
                         </div>
                         <div>
-                            <h3 className="text-2xl font-bold">Hassan</h3>
-                            <p className="text-neutral-400 text-sm uppercase tracking-widest">Co-Founder</p>
+                            <h3 className="text-2xl font-bold text-white">Hassan</h3>
+                            <p className="text-accent text-sm uppercase tracking-widest font-bold">Chief Operations Officer</p>
                         </div>
-                        <p className="text-neutral-300 leading-relaxed">
-                            Leading product strategy and operations. Passionate about creating seamless user experiences and efficient supply chains.
+                        <p className="text-neutral-400 leading-relaxed">
+                            The operational backbone of Digivixo. Hassan engineers seamless supply chain solutions and optimizes cross-border trade flows for maximum efficiency and client retention.
                         </p>
                     </div>
                 </div>
