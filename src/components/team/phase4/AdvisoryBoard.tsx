@@ -17,19 +17,19 @@ export default function AdvisoryBoard() {
             name: "Dr. Elena Vance",
             role: "Supply Chain Strategy",
             ex: "Ex-VP Logistics at Amazon",
-            image: "bg-neutral-200 dark:bg-neutral-800" // Placeholder color
+            image: "bg-neutral-800" // Placeholder color
         },
         {
             name: "Marcus Chen",
             role: "Global Trade Compliance",
             ex: "Former Trade Commissioner",
-            image: "bg-neutral-300 dark:bg-neutral-700"
+            image: "bg-neutral-700"
         },
         {
             name: "Sarah O'Connell",
             role: "E-commerce Growth",
             ex: "CMO at Shopify Plus Agency",
-            image: "bg-neutral-400 dark:bg-neutral-600"
+            image: "bg-neutral-600"
         }
     ];
 
@@ -48,7 +48,7 @@ export default function AdvisoryBoard() {
     }, { scope: containerRef });
 
     return (
-        <section ref={containerRef} className="py-24 px-6 bg-white dark:bg-card border-t border-neutral-200 dark:border-white/10">
+        <section ref={containerRef} className="py-24 px-6 bg-card border-t border-white/10">
             <div className="max-w-6xl mx-auto text-center space-y-16">
                 <div>
                     <h2 className="text-3xl font-bold mb-4">Strategic Advisory Board</h2>
