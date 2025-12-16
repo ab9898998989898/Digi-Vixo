@@ -35,13 +35,13 @@ export default function ServiceFAQ() {
     ];
 
     return (
-        <section className="py-24 px-6 bg-neutral-50 dark:bg-black">
+        <section className="py-24 px-6 bg-black">
             <div className="max-w-3xl mx-auto space-y-12">
                 <h2 className="text-4xl font-bold tracking-tighter text-center">Frequently Asked Questions</h2>
 
                 <div className="space-y-4">
                     {faqs.map((faq, index) => (
-                        <div key={index} className="border-b border-neutral-200 dark:border-neutral-800 pb-4">
+                        <div key={index} className="border-b border-neutral-800 pb-4">
                             <button
                                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                                 className="w-full flex items-center justify-between text-left py-4 focus:outline-none"
@@ -53,7 +53,7 @@ export default function ServiceFAQ() {
                                 "overflow-hidden transition-all duration-300 ease-in-out",
                                 openIndex === index ? "max-h-48 opacity-100" : "max-h-0 opacity-0"
                             )}>
-                                <p className="text-neutral-600 dark:text-neutral-400 pb-4 leading-relaxed">
+                                <p className="text-neutral-400 pb-4 leading-relaxed">
                                     {faq.answer}
                                 </p>
                             </div>

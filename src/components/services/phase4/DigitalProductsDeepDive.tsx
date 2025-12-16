@@ -36,11 +36,11 @@ export default function DigitalProductsDeepDive() {
     }, { scope: containerRef });
 
     return (
-        <section ref={containerRef} className="py-24 px-6 bg-white dark:bg-neutral-900 border-t border-neutral-200 dark:border-neutral-800">
+        <section ref={containerRef} className="py-24 px-6 bg-neutral-900 border-t border-neutral-800">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
                 <div className="left-content space-y-8">
                     <h3 className="text-3xl font-bold text-primary">Curated Intellectual Capital</h3>
-                    <div className="prose dark:prose-invert max-w-none text-neutral-600 dark:text-neutral-400">
+                    <div className="prose prose-invert max-w-none text-neutral-400">
                         <p>
                             Digivixo’s digital products are not generic, mass-produced templates. They are <strong>battle-tested frameworks</strong> extracted from actual 7-figure operations. We distill complex strategies into actionable assets.
                         </p>
@@ -58,7 +58,7 @@ export default function DigitalProductsDeepDive() {
                     </div>
                 </div>
 
-                <div className="right-content bg-neutral-50 dark:bg-black p-10 rounded-3xl border border-neutral-200 dark:border-neutral-800">
+                <div className="right-content bg-black p-10 rounded-3xl border border-neutral-800">
                     <h3 className="text-2xl font-bold mb-6">Asset Ecosystem</h3>
                     <ul className="space-y-4">
                         {[
@@ -71,24 +71,24 @@ export default function DigitalProductsDeepDive() {
                         ].map((item, i) => (
                             <li key={i} className="flex items-center gap-3">
                                 <CheckCircle2 className="w-5 h-5 text-emerald-500 flex-shrink-0" />
-                                <span className="text-neutral-700 dark:text-neutral-300 font-medium">{item}</span>
+                                <span className="text-neutral-300 font-medium">{item}</span>
                             </li>
                         ))}
                     </ul>
 
-                    <div className="mt-10 pt-10 border-t border-neutral-200 dark:border-neutral-800">
+                    <div className="mt-10 pt-10 border-t border-neutral-800">
                         <h4 className="text-sm font-bold uppercase tracking-widest text-neutral-500 mb-4">Supported Formats</h4>
                         <div className="flex gap-4 flex-wrap">
-                            <span className="flex items-center gap-2 px-4 py-2 bg-white dark:bg-neutral-800 border dark:border-neutral-700 rounded font-bold text-sm">
+                            <span className="flex items-center gap-2 px-4 py-2 bg-neutral-800 border border-neutral-700 rounded font-bold text-sm">
                                 <FileText className="w-4 h-4 text-blue-500" /> PDF
                             </span>
-                            <span className="flex items-center gap-2 px-4 py-2 bg-white dark:bg-neutral-800 border dark:border-neutral-700 rounded font-bold text-sm">
+                            <span className="flex items-center gap-2 px-4 py-2 bg-neutral-800 border border-neutral-700 rounded font-bold text-sm">
                                 <Layout className="w-4 h-4 text-purple-500" /> Notion
                             </span>
-                            <span className="flex items-center gap-2 px-4 py-2 bg-white dark:bg-neutral-800 border dark:border-neutral-700 rounded font-bold text-sm">
+                            <span className="flex items-center gap-2 px-4 py-2 bg-neutral-800 border border-neutral-700 rounded font-bold text-sm">
                                 <PlayCircle className="w-4 h-4 text-red-500" /> MP4
                             </span>
-                            <span className="flex items-center gap-2 px-4 py-2 bg-white dark:bg-neutral-800 border dark:border-neutral-700 rounded font-bold text-sm">
+                            <span className="flex items-center gap-2 px-4 py-2 bg-neutral-800 border border-neutral-700 rounded font-bold text-sm">
                                 <Download className="w-4 h-4 text-green-500" /> Zip
                             </span>
                         </div>

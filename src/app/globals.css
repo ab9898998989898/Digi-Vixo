@@ -5,6 +5,7 @@
 */
 :root {
   /* ENFORCED DARK THEME (Professional: Rich Black/Gold) */
+  color-scheme: dark;
   /* Backgrounds: Deep Black for maximum contrast with Gold */
   --background: #0a0a0a;
   --foreground: #e0e6e8;
