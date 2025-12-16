@@ -2,17 +2,18 @@
 
 import { cn } from "@/lib/utils";
 import { CheckCircle2 } from "lucide-react";
+import Image from "next/image";
 
 interface ServiceSectionProps {
     id: string;
     title: string;
     description: string;
     features: string[];
-    imageSrc?: string; // Placeholder for now
+    imageSrc?: string;
     reversed?: boolean;
 }
 
-export default function ServiceSection({ id, title, description, features, reversed }: ServiceSectionProps) {
+export default function ServiceSection({ id, title, description, features, imageSrc, reversed }: ServiceSectionProps) {
     return (
         <section id={id} className={cn("py-24 px-6", reversed ? "bg-neutral-50 dark:bg-neutral-900" : "bg-white dark:bg-black")}>
             <div className={cn("max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16", reversed && "md:flex-row-reverse")}>
@@ -30,8 +31,15 @@ export default function ServiceSection({ id, title, description, features, rever
                         ))}
                     </ul>
                 </div>
-                <div className="flex-1 w-full aspect-square md:aspect-video bg-neutral-200 dark:bg-neutral-800 rounded-2xl animate-pulse">
-                    {/* Image Placeholder */}
+                <div className="flex-1 w-full aspect-square md:aspect-video bg-neutral-200 dark:bg-neutral-800 rounded-2xl overflow-hidden relative">
+                    {imageSrc ? (
+                        <Image src={imageSrc} alt={title} fill className="object-cover" />
+                    ) : (
+                        <div className="absolute inset-0 flex items-center justify-center text-neutral-400">
+                            {/* Optional: Add a subtle pattern or icon here if needed */}
+                            <div className="w-16 h-16 rounded-full bg-neutral-300 dark:bg-neutral-700 opacity-20" />
+                        </div>
+                    )}
                 </div>
             </div>
         </section>

@@ -3,6 +3,8 @@ import ServiceProcess from "@/components/services/ServiceProcess";
 import ServiceFAQ from "@/components/services/ServiceFAQ";
 import DropshippingDeepDive from "@/components/services/phase3/DropshippingDeepDive";
 import WholesaleDeepDive from "@/components/services/phase3/WholesaleDeepDive";
+import DigitalProductsDeepDive from "@/components/services/phase4/DigitalProductsDeepDive";
+import DigitalServicesDeepDive from "@/components/services/phase4/DigitalServicesDeepDive";
 import TechStackGrid from "@/components/services/phase4/TechStackGrid";
 import SLASpecs from "@/components/services/phase4/SLASpecs";
 import type { Metadata } from "next";
@@ -26,6 +28,7 @@ export default function ServicesPage() {
                 id="dropshipping"
                 title="Dropshipping Services"
                 description="We streamline your supply chain with our elite dropshipping network. From product sourcing to final delivery, we handle the logistics so you can focus on marketing and growth."
+                imageSrc="/dropship.png"
                 features={[
                     "Global Supplier Network",
                     "Automated Order Fulfillment",
@@ -42,6 +45,7 @@ export default function ServicesPage() {
                 id="wholesale"
                 title="Wholesale Solutions"
                 description="Scale your inventory with our B2B wholesale management. Access bulk pricing and exclusive products to maximize your profit margins."
+                imageSrc="/wholesale.jpg"
                 reversed
                 features={[
                     "Competitive Bulk Pricing",
@@ -59,6 +63,7 @@ export default function ServicesPage() {
                 id="digital"
                 title="Digital Products"
                 description="Accelerate your learning and business setup with our premium digital assets. Ebooks, templates, and guides crafted by industry leaders."
+                imageSrc="/digital-products.jpg"
                 features={[
                     "Comprehensive E-books",
                     "Business Templates & Checklists",
@@ -67,6 +72,24 @@ export default function ServicesPage() {
                     "Exclusive Video Courses"
                 ]}
             />
+            <DigitalProductsDeepDive />
+
+            <ServiceSection
+                id="digital-services"
+                title="Digital Services"
+                description="Accelerate your business growth with our premium digital services."
+                imageSrc="/digital-services.png"
+                reversed
+                features={[
+                    "Website Development",
+                    "Ai Chatbot Development",
+                    "Shopify Store Development",
+                    "Amazon Store Development",
+                    "Personal Graphic Design",
+                    "Social Media Management"
+                ]}
+            />
+            <DigitalServicesDeepDive />
 
             <ServiceFAQ />
         </main>

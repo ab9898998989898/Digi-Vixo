@@ -5,6 +5,7 @@ import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ArrowRight, BookOpen, Download } from "lucide-react";
+import Image from "next/image";
 
 export default function DigitalProducts() {
     const containerRef = useRef<HTMLDivElement>(null);
@@ -65,7 +66,7 @@ export default function DigitalProducts() {
                 <div ref={imageRef} className="flex-1 w-full aspect-square md:aspect-auto md:h-[500px] bg-neutral-200 dark:bg-neutral-800 rounded-2xl overflow-hidden relative">
                     {/* Placeholder for actual image */}
                     <div className="absolute inset-0 flex items-center justify-center text-neutral-400">
-                        <BookOpen className="w-24 h-24 opacity-20" />
+                        <Image src='/dropship.png' fill className="object-cover" alt="dropshipping image" />
                     </div>
                     <div className="absolute bottom-8 left-8 right-8 bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
                         <p className="text-sm font-medium text-white">Latest Release</p>

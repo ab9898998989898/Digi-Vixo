@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { User } from "lucide-react";
+import Image from "next/image";
 
 export default function TeamPreview() {
     return (
@@ -17,8 +17,8 @@ export default function TeamPreview() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                     {/* Abdullah */}
                     <div className="p-8 rounded-2xl bg-neutral-900 border border-white/10 hover:border-accent/50 transition-colors text-left space-y-6 group">
-                        <div className="w-16 h-16 rounded-full bg-neutral-800 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
-                            <User className="w-8 h-8 text-neutral-400 group-hover:text-accent transition-colors" />
+                        <div className="w-16 h-16 rounded-full bg-neutral-800 relative overflow-hidden group-hover:bg-accent/20 transition-colors">
+                            <Image src="/abdullah.jpeg" alt="Abdullah" fill className="object-cover" />
                         </div>
                         <div>
                             <h3 className="text-2xl font-bold text-white">Abdullah</h3>
@@ -31,8 +31,8 @@ export default function TeamPreview() {
 
                     {/* Hassan */}
                     <div className="p-8 rounded-2xl bg-neutral-900 border border-white/10 hover:border-accent/50 transition-colors text-left space-y-6 group">
-                        <div className="w-16 h-16 rounded-full bg-neutral-800 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
-                            <User className="w-8 h-8 text-neutral-400 group-hover:text-accent transition-colors" />
+                        <div className="w-16 h-16 rounded-full bg-neutral-800 relative overflow-hidden group-hover:bg-accent/20 transition-colors">
+                            <Image src="/hassan.jpeg" alt="Hassan" fill className="object-cover" />
                         </div>
                         <div>
                             <h3 className="text-2xl font-bold text-white">Hassan</h3>

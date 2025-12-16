@@ -17,12 +17,20 @@ export default function ServiceFAQ() {
             answer: "Dropshipping has NO MOQ. For wholesale custom branding, MOQs typically start at 50 units, significantly lower than industry standards."
         },
         {
+            question: "What platforms do your digital services support?",
+            answer: "Our development team specializes in Next.js, Shopify, and WordPress. We build scalable, high-performance applications tailored to your specific business needs."
+        },
+        {
+            question: "How do I access my purchased digital products?",
+            answer: "Upon purchase, you receive instant access to a secure dashboard where you can download all assets. You also get lifetime access to future updates at no extra cost."
+        },
+        {
             question: "Can you handle custom packaging?",
             answer: "Yes! We offer full custom packaging services including branded boxes, thank you cards, and stickers to elevate your customer's unboxing experience."
         },
         {
-            question: "Do you integrate with WooCommerce?",
-            answer: "Currently, our direct integration is optimized for Shopify. However, we can support WooCommerce via CSV uploads or custom API access for enterprise clients."
+            question: "Do you offer post-launch support for websites?",
+            answer: "Absolutely. All our development packages include 30 days of complimentary support. We also offer monthly maintenance retainers for ongoing optimization and updates."
         }
     ];
 
