@@ -43,13 +43,13 @@ export default function Hero() {
         <section ref={containerRef} className="relative min-h-[95vh] flex flex-col justify-center items-center text-center px-6 overflow-hidden">
             {/* Background with premium glow effects */}
             <div className="absolute inset-0 -z-10 bg-neutral-50 dark:bg-black">
-                <div className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] bg-purple-500/10 blur-[120px] rounded-full mix-blend-multiply dark:mix-blend-screen animate-pulse" />
-                <div className="absolute bottom-[-20%] right-[-10%] w-[500px] h-[500px] bg-blue-500/10 blur-[100px] rounded-full mix-blend-multiply dark:mix-blend-screen animate-pulse delay-1000" />
+                <div className="absolute top-[-20%] left-[-10%] w-[300px] h-[300px] md:w-[600px] md:h-[600px] bg-purple-500/10 blur-[120px] rounded-full mix-blend-multiply dark:mix-blend-screen animate-pulse" />
+                <div className="absolute bottom-[-20%] right-[-10%] w-[250px] h-[250px] md:w-[500px] md:h-[500px] bg-blue-500/10 blur-[100px] rounded-full mix-blend-multiply dark:mix-blend-screen animate-pulse delay-1000" />
             </div>
 
             <div className="max-w-5xl mx-auto space-y-10 z-10">
                 <div className="overflow-hidden">
-                    <h1 ref={titleRef} className="text-7xl md:text-9xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-neutral-400 leading-[1.1] pb-4">
+                    <h1 ref={titleRef} className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-neutral-400 leading-[1.1] pb-4">
                         Architects of <br /> Digital Dominance.
                     </h1>
                 </div>
