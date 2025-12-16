@@ -74,7 +74,7 @@ export default function MobileMenu({ isOpen, onClose, links }: MobileMenuProps) 
         >
             <div
                 ref={menuRef}
-                className="absolute top-0 right-0 h-full w-[80%] max-w-sm bg-neutral-900 border-l border-white/10 shadow-2xl translate-x-full flex flex-col p-8"
+                className="absolute top-0 right-0 h-screen w-[80%] max-w-sm bg-[#0a0a0a] border-l border-white/10 shadow-2xl translate-x-full flex flex-col p-8 z-[100]"
                 onClick={(e) => e.stopPropagation()}
             >
                 <div className="flex justify-end mb-12">

@@ -13,7 +13,8 @@
   --card: #141414;
   --card-foreground: #e0e6e8;
 
-  --primary: #d4af37; /* Gold as primary */
+  --primary: #d4af37;
+  /* Gold as primary */
   --primary-foreground: #000000;
 
   --muted: #404040;
@@ -63,7 +64,9 @@
 }
 
 /* GLOBAL RESETS */
+html,
 body {
+  overflow-x: hidden;
   background: var(--background);
   color: var(--foreground);
   /* Use the variable font, fall back to sans-serif */
