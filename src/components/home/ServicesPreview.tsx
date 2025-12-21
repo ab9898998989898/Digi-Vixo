@@ -41,28 +41,28 @@ export default function ServicesPreview() {
             link: "/services#wholesale"
         },
         {
-            title: "Global Logistics",
-            description: "Worldwide supply chain management ensuring your products reach anywhere.",
+            title: "Digital Services",
+            description: "Website development, AI solutions, Shopify & Amazon store management.",
             icon: <Globe className="w-8 h-8" />,
-            link: "/services"
+            link: "/services#digital-services"
         },
         {
-            title: "Market Analysis",
-            description: "Data-driven insights to help you choose winning products.",
+            title: "Education & LMS",
+            description: "Affordable access to premium, market-relevant courses for practical skill-building.",
             icon: <BarChart3 className="w-8 h-8" />,
-            link: "/services"
+            link: "/services#digital"
         }
     ];
 
     return (
-        <section ref={containerRef} className="py-24 px-6 bg-neutral-50 dark:bg-neutral-900">
+        <section ref={containerRef} className="py-24 px-6 bg-neutral-900">
             <div className="max-w-7xl mx-auto space-y-16">
                 <div className="space-y-4 max-w-2xl">
                     <h2 className="text-4xl md:text-5xl font-bold tracking-tighter">
-                        Comprehensive Solutions <br /> for Modern Brands.
+                        Complete Solutions <br />for Digital Business.
                     </h2>
-                    <p className="text-neutral-600 dark:text-neutral-400 text-lg">
-                        We handle the heavy lifting of logistics and sourcing so you can focus on building your brand.
+                    <p className="text-neutral-400 text-lg">
+                        Five core digital services, global commerce operations, and practical education—all on one platform.
                     </p>
                 </div>
 
@@ -71,13 +71,13 @@ export default function ServicesPreview() {
                         <Link
                             key={index}
                             href={service.link}
-                            className="service-card group block p-8 bg-white dark:bg-black border border-neutral-200 dark:border-neutral-800 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors"
+                            className="service-card group block p-8 bg-black border border-neutral-800 hover:border-neutral-600 transition-colors"
                         >
-                            <div className="mb-6 text-neutral-800 dark:text-neutral-200 group-hover:scale-110 transition-transform duration-300">
+                            <div className="mb-6 text-neutral-200 group-hover:scale-110 transition-transform duration-300">
                                 {service.icon}
                             </div>
                             <h3 className="text-xl font-bold mb-3">{service.title}</h3>
-                            <p className="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed">
+                            <p className="text-neutral-400 text-sm leading-relaxed">
                                 {service.description}
                             </p>
                         </Link>

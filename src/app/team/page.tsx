@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function TeamPage() {
     return (
         <main className="pt-20">
-            <div className="py-32 px-6 text-center space-y-6 bg-neutral-50 dark:bg-black">
+            <div className="py-32 px-6 text-center space-y-6 bg-black">
                 <h1 className="text-5xl md:text-8xl font-bold tracking-tighter">The Visionaries</h1>
                 <p className="text-xl text-neutral-500 max-w-2xl mx-auto">
                     Building the infrastructure for the next generation of commerce.

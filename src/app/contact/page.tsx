@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
     return (
-        <main className="pt-20 pb-24 bg-neutral-50 dark:bg-black min-h-screen">
+        <main className="pt-20 pb-24 bg-black min-h-screen">
             <div className="py-24 text-center space-y-6 px-6">
                 <h1 className="text-5xl md:text-8xl font-bold tracking-tighter">Get in Touch</h1>
                 <p className="text-xl text-neutral-500 max-w-2xl mx-auto">
@@ -21,25 +21,23 @@ export default function ContactPage() {
 
                 {/* Contact Info Side */}
                 <div className="flex-1 space-y-12">
-                    <div className="bg-white dark:bg-neutral-900 p-8 rounded-3xl border border-neutral-200 dark:border-neutral-800 space-y-8">
+                    <div className="bg-neutral-900 p-8 rounded-3xl border border-neutral-800 space-y-8">
                         <h2 className="text-2xl font-bold">Contact Information</h2>
 
                         <div className="space-y-6">
                             <div className="flex items-start gap-4">
-                                <div className="p-3 bg-neutral-100 dark:bg-neutral-800 rounded-full">
+                                <div className="p-3 bg-neutral-800 rounded-full">
                                     <Mail className="w-6 h-6" />
                                 </div>
                                 <div>
                                     <h3 className="font-bold mb-1">Email Us</h3>
                                     <p className="text-neutral-500 text-sm mb-2">For general inquiries and support:</p>
-                                    <a href="mailto:support@digivixo.com" className="text-lg font-medium hover:underline">support@digivixo.com</a>
-                                    <p className="text-neutral-500 text-sm mt-2 mb-2">For partnerships:</p>
-                                    <a href="mailto:partners@digivixo.com" className="text-lg font-medium hover:underline">partners@digivixo.com</a>
+                                    <a href="mailto:support@digivixo.com" className="text-lg font-medium hover:underline">digivixoofficial@gmail.com</a>
                                 </div>
                             </div>
 
                             <div className="flex items-start gap-4">
-                                <div className="p-3 bg-neutral-100 dark:bg-neutral-800 rounded-full">
+                                <div className="p-3 bg-neutral-800 rounded-full">
                                     <Globe className="w-6 h-6" />
                                 </div>
                                 <div>
@@ -52,7 +50,7 @@ export default function ContactPage() {
                             </div>
 
                             <div className="flex items-start gap-4">
-                                <div className="p-3 bg-neutral-100 dark:bg-neutral-800 rounded-full">
+                                <div className="p-3 bg-neutral-800 rounded-full">
                                     <Phone className="w-6 h-6" />
                                 </div>
                                 <div>
@@ -83,7 +81,7 @@ export default function ContactPage() {
                 </div>
 
                 {/* Form Side */}
-                <div className="flex-[1.5] bg-white dark:bg-neutral-900 rounded-3xl p-8 md:p-12 border border-neutral-200 dark:border-neutral-800 shadow-xl shadow-neutral-200/50 dark:shadow-none">
+                <div className="flex-[1.5] bg-neutral-900 rounded-3xl p-8 md:p-12 border border-neutral-800 shadow-xl shadow-none">
                     <h2 className="text-3xl font-bold mb-8">Send a Message</h2>
                     <ContactForm />
                 </div>

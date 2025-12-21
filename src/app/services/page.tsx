@@ -10,17 +10,17 @@ import SLASpecs from "@/components/services/phase4/SLASpecs";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Services | Digivixo",
-    description: "Explore Digivixo's premium services: Dropshipping, Wholesale, and Digital Products.",
+    title: "Services | DIGIVIXO - Digital Business Solutions & Commerce",
+    description: "Explore DIGIVIXO's five core digital services: Website Development, AI & ML Solutions, Digital Marketing, Shopify & Amazon Store Management, plus dropshipping and wholesale operations.",
 };
 
 export default function ServicesPage() {
     return (
         <main className="pt-20">
-            <div className="py-24 px-6 text-center space-y-6 bg-gradient-to-b from-neutral-50 to-white dark:from-neutral-900 dark:to-black">
-                <h1 className="text-5xl md:text-7xl font-bold tracking-tighter">Our Expertise</h1>
+            <div className="py-24 px-6 text-center space-y-6 bg-gradient-to-b from-neutral-900 to-black">
+                <h1 className="text-5xl md:text-7xl font-bold tracking-tighter">Your Full-Stack Digital Partner</h1>
                 <p className="text-xl text-neutral-500 max-w-2xl mx-auto">
-                    Tailored solutions to elevate your commerce game.
+                    Five digital business pillars. Global commerce operations. One trusted platform.
                 </p>
             </div>
 

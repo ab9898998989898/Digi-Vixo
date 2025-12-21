@@ -27,14 +27,14 @@ export default function BrandStory() {
         <section ref={containerRef} className="py-24 px-6 md:px-12 max-w-7xl mx-auto">
             <div className="space-y-12">
                 <h1 className="story-text text-5xl md:text-7xl font-bold tracking-tighter">
-                    We are <span className="text-accent">Digivixo.</span>
+                    We are <span className="text-accent">DIGIVIXO.</span>
                 </h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-lg md:text-xl leading-relaxed text-neutral-600 dark:text-neutral-300">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-lg md:text-xl leading-relaxed text-neutral-300">
                     <p className="story-text">
-                        Born from a vision to simplify global commerce, Digivixo started as a small initiative by two passionate entrepreneurs, Abdullah and Hassan. We saw the complexities of dropshipping and wholesale—the fragmented supply chains, the lack of transparency, and the technological barriers.
+                        DIGIVIXO is a one-platform tech and commerce solution founded by Abdullah and Hassan—two entrepreneurs with 2–3 years of hands-on teaching experience locally and internationally. We saw a gap: businesses struggling with unreliable suppliers, fragmented digital services, and expensive courses that don&apos;t translate to real-world skills.
                     </p>
                     <p className="story-text">
-                        We decided to change that. By combining cutting-edge technology with established global networks, we created a platform that empowers businesses to scale without limits. Today, Digivixo stands as a beacon of trust and efficiency in the digital economy.
+                        So we built something different. DIGIVIXO combines global dropshipping and wholesale operations with five core digital services—website development, AI solutions, digital marketing, and Shopify/Amazon store management. Through our LMS, we also provide affordable access to premium, market-relevant courses. Learn, execute, and scale—all in one place.
                     </p>
                 </div>
             </div>

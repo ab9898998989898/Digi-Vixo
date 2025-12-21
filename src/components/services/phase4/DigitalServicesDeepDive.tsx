@@ -39,22 +39,24 @@ export default function DigitalServicesDeepDive() {
         <section ref={containerRef} className="py-24 px-6 bg-neutral-900 border-t border-neutral-800">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
                 <div className="left-content-s space-y-8">
-                    <h3 className="text-3xl font-bold text-primary">Engineering Your Digital Presence</h3>
+                    <h3 className="text-3xl font-bold text-primary">Five Core Digital Services</h3>
                     <div className="prose prose-invert max-w-none text-neutral-400">
                         <p>
-                            In the digital age, your platform is your strongest asset. We don't just "build websites"; we engineer <strong>revenue-generating ecosystems</strong>. Our development philosophy is rooted in performance, scalability, and conversion optimization.
+                            DIGIVIXO provides complete digital business solutions through five specialized service areas. We handle everything from building your online presence to managing your e-commerce operations.
                         </p>
                         <p>
-                            <strong>Agile Development Cycle:</strong> We utilize rapid prototyping and iterative development loops to ensure your vision is realized with pixel-perfect precision.
-                        </p>
-                        <p>
-                            <strong>Performance First:</strong> Every line of code is optimized for speed. We target sub-second load times and 95+ Lighthouse scores to ensure maximum SEO visibility and user retention.
+                            <strong>Our Five Pillars:</strong>
                         </p>
                         <ul className="list-disc pl-5 space-y-2">
-                            <li><strong>Custom Solutions:</strong> Tailored architecture, not cookie-cutter templates.</li>
-                            <li><strong>Mobile-First Design:</strong> Experiences that feel native on any device.</li>
-                            <li><strong>Scalable Backend:</strong> Infrastructure ready to handle traffic spikes from day one.</li>
+                            <li><strong>Website Development:</strong> Custom design, development, and maintenance for high-performance sites.</li>
+                            <li><strong>AI & ML Solutions:</strong> AI chatbots, automation, and machine learning models for business efficiency.</li>
+                            <li><strong>Digital Marketing & SMM:</strong> Paid ads, SEO, content creation, and social media campaigns.</li>
+                            <li><strong>Shopify Store Management:</strong> Complete setup, listing optimization, and operations handling.</li>
+                            <li><strong>Amazon Store Management:</strong> Store creation, product listings, and sales management.</li>
                         </ul>
+                        <p className="mt-4 text-sm border-l-2 border-accent pl-4">
+                            Want to learn these skills yourself? Our LMS provides affordable access to premium, market-relevant courses.
+                        </p>
                     </div>
                 </div>
 

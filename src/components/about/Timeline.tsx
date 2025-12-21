@@ -27,29 +27,29 @@ export default function Timeline() {
 
     const milestones = [
         {
-            year: "2018",
-            title: "The Inception",
-            description: "Abdullah and Hassan identify the gap in reliable dropshipping supply chains while running their own e-commerce ventures. They begin building a private network of trusted suppliers."
-        },
-        {
-            year: "2020",
-            title: "The Beta Launch",
-            description: "Digivixo launches as an invite-only platform for high-volume sellers. We process our first 10,000 orders and establish key partnerships in Shenzhen."
+            year: "2021",
+            title: "The Beginning",
+            description: "Abdullah and Hassan begin their journey in e-commerce and digital education, gaining hands-on experience teaching locally and internationally while running their own online ventures."
         },
         {
             year: "2022",
-            title: "Expansion to Wholesale",
-            description: "Responding to partner demand, we open our B2B wholesale division, allowing brands to manufacture custom products with lower MOQs."
+            title: "Digital Services Launch",
+            description: "We formalize our five core digital services: website development, AI solutions, digital marketing, and Shopify/Amazon store management—helping businesses establish their online presence."
+        },
+        {
+            year: "2023",
+            title: "Commerce Operations",
+            description: "DIGIVIXO expands into global dropshipping and wholesale operations in Pakistan, creating reliable supply chains for entrepreneurs and established businesses alike."
         },
         {
             year: "2024",
-            title: "Digital Ecosystem",
-            description: "We launch our Digital Assets library, providing the education and tools necessary for new entrepreneurs to enter the market."
+            title: "LMS & Education",
+            description: "We launch our Learning Management System, providing affordable access to premium courses that normally cost hundreds or thousands of dollars—for just a fraction of the price."
         },
         {
             year: "2025",
-            title: "Going Global",
-            description: "Digivixo opens its public portal, democratizing access to enterprise-grade logistics for businesses worldwide."
+            title: "One-Platform Ecosystem",
+            description: "DIGIVIXO becomes a complete tech and commerce solution: Main website, LMS, and active e-commerce store—allowing users to learn, see, and apply real-world business strategies."
         }
     ];
 

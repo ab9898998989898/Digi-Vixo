@@ -9,28 +9,28 @@ export default function ServiceFAQ() {
 
     const faqs = [
         {
-            question: "What are your shipping times?",
-            answer: "For dropshipping, we offer 5-8 day delivery to US/UK/EU via our premium lines. Wholesale bulk orders typically arrive in 12-15 days depending on freight method."
+            question: "What digital services does DIGIVIXO offer?",
+            answer: "DIGIVIXO provides five core digital services: Website Development, AI & ML Solutions, Digital Marketing & Social Media Marketing, Shopify Store Setup & Management, and Amazon Store Setup & Management."
         },
         {
-            question: "Do you require a Minimum Order Quantity (MOQ)?",
-            answer: "Dropshipping has NO MOQ. For wholesale custom branding, MOQs typically start at 50 units, significantly lower than industry standards."
+            question: "What is the DIGIVIXO LMS and who is it for?",
+            answer: "Our LMS aggregates premium global courses that normally cost hundreds or thousands of dollars, offering students access for 10,000–15,000 PKR. It's designed for founders, students, and businesses looking to learn practical, market-relevant skills."
         },
         {
-            question: "What platforms do your digital services support?",
-            answer: "Our development team specializes in Next.js, Shopify, and WordPress. We build scalable, high-performance applications tailored to your specific business needs."
+            question: "Can DIGIVIXO help with both Shopify and Amazon stores?",
+            answer: "Yes! We offer complete setup and management for both Shopify and Amazon stores, including store creation, product listings, optimization, and ongoing operations handling."
         },
         {
-            question: "How do I access my purchased digital products?",
-            answer: "Upon purchase, you receive instant access to a secure dashboard where you can download all assets. You also get lifetime access to future updates at no extra cost."
+            question: "Does DIGIVIXO offer AI chatbot development?",
+            answer: "Absolutely. Our AI & ML Solutions pillar includes AI chatbot development, automation workflows, and machine learning models tailored to improve your business efficiency."
         },
         {
-            question: "Can you handle custom packaging?",
-            answer: "Yes! We offer full custom packaging services including branded boxes, thank you cards, and stickers to elevate your customer's unboxing experience."
+            question: "What's the difference between dropshipping and wholesale services?",
+            answer: "Dropshipping has no minimum order quantity—we handle fulfillment for individual orders. Wholesale is for bulk ordering with competitive pricing, ideal for established brands scaling their inventory."
         },
         {
-            question: "Do you offer post-launch support for websites?",
-            answer: "Absolutely. All our development packages include 30 days of complimentary support. We also offer monthly maintenance retainers for ongoing optimization and updates."
+            question: "How is DIGIVIXO qualified to teach these skills?",
+            answer: "Our founders have 2–3 years of hands-on teaching experience locally and internationally. We understand real student learning gaps and focus on practical, outcome-based education rather than just theory."
         }
     ];
 

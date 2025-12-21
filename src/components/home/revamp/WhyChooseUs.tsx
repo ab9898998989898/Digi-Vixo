@@ -29,22 +29,22 @@ export default function WhyChooseUs() {
         {
             icon: <ShieldCheck className="w-10 h-10 mb-6 text-emerald-500" />,
             title: "Vetted Supplier Network",
-            description: "We don't just connect you; we verify. Every supplier in our network undergoes a rigorous 50-point inspection process to ensure product quality and ethical labor practices.",
+            description: "Every supplier in our network undergoes rigorous inspection to ensure product quality and reliability for your dropshipping and wholesale operations.",
         },
         {
             icon: <BarChart4 className="w-10 h-10 mb-6 text-blue-500" />,
-            title: "Data-Driven Insights",
-            description: "Stop guessing. Our proprietary market analysis tools provide real-time data on trending products, profit margins, and competition levels, giving you the unfair advantage.",
+            title: "Five Core Digital Services",
+            description: "Website development, AI solutions, digital marketing, and Shopify/Amazon store management—complete digital business support under one roof.",
         },
         {
             icon: <Globe2 className="w-10 h-10 mb-6 text-purple-500" />,
-            title: "Global Infrastructure",
-            description: "From Shenzhen to San Francisco, our logistics framework spans 12 countries, ensuring your products reach customers faster and cheaper than standard e-packet solutions.",
+            title: "Teaching Experience",
+            description: "With 2–3 years of hands-on teaching experience locally and internationally, we understand real student learning gaps and focus on practical, market-relevant skills.",
         },
         {
             icon: <Zap className="w-10 h-10 mb-6 text-amber-500" />,
-            title: "Instant Integration",
-            description: "Our systems plug directly into your Shopify ecosystem. Auto-sync inventory, order tracking, and financial reporting without lifting a finger.",
+            title: "Affordable Premium Education",
+            description: "Access premium courses that normally cost hundreds or thousands of dollars—for just 10,000–15,000 PKR through our LMS platform.",
         },
     ];
 

@@ -30,30 +30,30 @@ export default function DigitalProducts() {
     }, []);
 
     return (
-        <section ref={containerRef} className="py-32 px-6 border-y border-neutral-200 dark:border-neutral-800">
+        <section ref={containerRef} className="py-32 px-6 border-y border-neutral-800">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
                 <div ref={contentRef} className="flex-1 space-y-8">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-100 dark:bg-neutral-800 text-xs uppercase tracking-widest font-medium">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-800 text-xs uppercase tracking-widest font-medium">
                         <Download className="w-3 h-3" /> Digital Assets
                     </div>
                     <h2 className="text-4xl md:text-6xl font-bold tracking-tighter">
                         Scale Faster with <br /> Proven Resources.
                     </h2>
-                    <p className="text-lg text-neutral-600 dark:text-neutral-400 max-w-md">
+                    <p className="text-lg text-neutral-400 max-w-md">
                         Unlock our library of ebooks, templates, and guides designed by industry experts to accelerate your business growth.
                     </p>
 
                     <ul className="space-y-4">
                         <li className="flex items-center gap-3">
-                            <div className="w-2 h-2 bg-black dark:bg-white rounded-full" />
+                            <div className="w-2 h-2 bg-white rounded-full" />
                             <span>Expert E-commerce Strategies</span>
                         </li>
                         <li className="flex items-center gap-3">
-                            <div className="w-2 h-2 bg-black dark:bg-white rounded-full" />
+                            <div className="w-2 h-2 bg-white rounded-full" />
                             <span>Ready-to-use Marketing Templates</span>
                         </li>
                         <li className="flex items-center gap-3">
-                            <div className="w-2 h-2 bg-black dark:bg-white rounded-full" />
+                            <div className="w-2 h-2 bg-white rounded-full" />
                             <span>Supplier Contact Lists</span>
                         </li>
                     </ul>
@@ -63,7 +63,7 @@ export default function DigitalProducts() {
                     </Link>
                 </div>
 
-                <div ref={imageRef} className="flex-1 w-full aspect-square md:aspect-auto md:h-[500px] bg-neutral-200 dark:bg-neutral-800 rounded-2xl overflow-hidden relative">
+                <div ref={imageRef} className="flex-1 w-full aspect-square md:aspect-auto md:h-[500px] bg-neutral-800 rounded-2xl overflow-hidden relative">
                     {/* Placeholder for actual image */}
                     <div className="absolute inset-0 flex items-center justify-center text-neutral-400">
                         <Image src='/dropship.png' fill className="object-cover" alt="dropshipping image" />

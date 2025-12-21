@@ -62,24 +62,24 @@ export default function SuccessStories() {
                     <h2 className="text-sm font-bold uppercase tracking-widest text-accent">Success Stories</h2>
                     <h3 className="text-4xl md:text-6xl font-bold tracking-tighter">Legends of Scale.</h3>
                 </div>
-                <a href="/services" className="px-8 py-4 rounded-full border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors flex items-center gap-2 group">
+                <a href="/services" className="px-8 py-4 rounded-full border border-neutral-800 hover:bg-neutral-900 transition-colors flex items-center gap-2 group">
                     Read Case Studies <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {stories.map((story, i) => (
-                    <div key={i} className="story-card p-10 rounded-3xl bg-neutral-50 dark:bg-neutral-900/50 border border-neutral-200 dark:border-neutral-800 hover:border-accent/50 transition-colors group flex flex-col justify-between h-full">
+                    <div key={i} className="story-card p-10 rounded-3xl bg-neutral-900/50 border border-neutral-800 hover:border-accent/50 transition-colors group flex flex-col justify-between h-full">
                         <div className="space-y-8">
                             <div className="flex gap-1">
                                 {[1, 2, 3, 4, 5].map(s => <Star key={s} className="w-5 h-5 fill-gold text-gold" />)}
                             </div>
-                            <blockquote className="text-xl leading-relaxed text-neutral-700 dark:text-neutral-300">
+                            <blockquote className="text-xl leading-relaxed text-neutral-300">
                                 "{story.quote}"
                             </blockquote>
                         </div>
 
-                        <div className="mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-800 flex justify-between items-end">
+                        <div className="mt-12 pt-8 border-t border-neutral-800 flex justify-between items-end">
                             <div>
                                 <div className="text-3xl font-bold text-foreground mb-1">{story.metric}</div>
                                 <div className="text-sm text-neutral-500 uppercase tracking-wide">{story.timeframe}</div>

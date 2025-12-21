@@ -24,7 +24,7 @@ export default function TeamDetails() {
                     <div className="space-y-8 pt-8">
                         <div>
                             <h2 className="text-5xl font-bold mb-2">Abdullah</h2>
-                            <p className="text-xl text-neutral-400 uppercase tracking-widest">Co-Founder & CTO</p>
+                            <p className="text-xl text-neutral-400 uppercase tracking-widest">Co-Founder, CEO & CTO</p>
                         </div>
                         <div className="space-y-6 text-lg text-neutral-300 leading-relaxed">
                             <p>
@@ -45,13 +45,13 @@ export default function TeamDetails() {
                                 <h4 className="text-xl font-bold mb-4 text-white">Areas of Expertise</h4>
                                 <ul className="grid grid-cols-2 gap-4 text-sm text-neutral-400">
                                     <li className="flex items-center gap-2">
-                                        <div className="w-2 h-2 bg-accent rounded-full" /> Supply Chain Arch.
+                                        <div className="w-2 h-2 bg-accent rounded-full" /> Website Development.
                                     </li>
                                     <li className="flex items-center gap-2">
-                                        <div className="w-2 h-2 bg-accent rounded-full" /> Systems Integration
+                                        <div className="w-2 h-2 bg-accent rounded-full" /> AI Solutions.
                                     </li>
                                     <li className="flex items-center gap-2">
-                                        <div className="w-2 h-2 bg-accent rounded-full" /> Vendor Relations
+                                        <div className="w-2 h-2 bg-accent rounded-full" /> Digital Marketing.
                                     </li>
                                     <li className="flex items-center gap-2">
                                         <div className="w-2 h-2 bg-accent rounded-full" /> Data Analytics
@@ -106,7 +106,7 @@ export default function TeamDetails() {
                                         <div className="w-2 h-2 bg-accent rounded-full" /> Product Sourcing
                                     </li>
                                     <li className="flex items-center gap-2">
-                                        <div className="w-2 h-2 bg-accent rounded-full" /> Brand Development
+                                        <div className="w-2 h-2 bg-accent rounded-full" /> Amazon, Shopify & WooCommerce Management
                                     </li>
                                     <li className="flex items-center gap-2">
                                         <div className="w-2 h-2 bg-accent rounded-full" /> Education & Training

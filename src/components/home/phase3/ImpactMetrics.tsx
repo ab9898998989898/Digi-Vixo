@@ -47,7 +47,7 @@ export default function ImpactMetrics() {
     ];
 
     return (
-        <section ref={containerRef} className="py-32 px-6 bg-background text-foreground border-y border-neutral-200 dark:border-neutral-800">
+        <section ref={containerRef} className="py-32 px-6 bg-background text-foreground border-y border-neutral-800">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-24 space-y-4">
                     <h2 className="text-sm font-bold uppercase tracking-widest text-accent">Our Impact</h2>
@@ -59,12 +59,12 @@ export default function ImpactMetrics() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                     {metrics.map((metric, i) => (
-                        <div key={i} className="metric-card text-center space-y-2 p-8 rounded-3xl bg-neutral-100 dark:bg-neutral-900/50 backdrop-blur-sm">
+                        <div key={i} className="metric-card text-center space-y-2 p-8 rounded-3xl bg-neutral-900/50 backdrop-blur-sm">
                             <div className={`text-6xl md:text-7xl font-bold ${metric.color} flex justify-center items-baseline`}>
                                 <span className="counter" data-target={metric.value}>0</span>
                                 <span className="text-4xl">{metric.suffix}</span>
                             </div>
-                            <p className="text-lg font-medium text-neutral-600 dark:text-neutral-400 uppercase tracking-wide">
+                            <p className="text-lg font-medium text-neutral-400 uppercase tracking-wide">
                                 {metric.label}
                             </p>
                         </div>

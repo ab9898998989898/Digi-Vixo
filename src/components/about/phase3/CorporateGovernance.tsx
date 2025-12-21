@@ -40,19 +40,19 @@ export default function CorporateGovernance() {
     }, { scope: containerRef });
 
     return (
-        <section ref={containerRef} className="py-24 px-6 bg-white dark:bg-neutral-900 border-t border-neutral-200 dark:border-neutral-800">
+        <section ref={containerRef} className="py-24 px-6 bg-neutral-900 border-t border-neutral-800">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12">
                 <div className="left-col lg:col-span-1 space-y-6">
                     <h2 className="text-3xl font-bold tracking-tighter">Corporate Governance</h2>
-                    <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                    <p className="text-neutral-400 leading-relaxed">
                         Digivixo operates with the transparency and compliance standards expected of a public entity. We believe that ethical supply chains are the only sustainable supply chains.
                     </p>
                     <div className="flex gap-4 pt-4">
                         {/* Trust Badges placeholder */}
-                        <div className="w-16 h-16 bg-neutral-100 dark:bg-neutral-800 rounded-full flex items-center justify-center">
+                        <div className="w-16 h-16 bg-neutral-800 rounded-full flex items-center justify-center">
                             <Shield className="w-8 h-8 text-neutral-400" />
                         </div>
-                        <div className="w-16 h-16 bg-neutral-100 dark:bg-neutral-800 rounded-full flex items-center justify-center">
+                        <div className="w-16 h-16 bg-neutral-800 rounded-full flex items-center justify-center">
                             <Lock className="w-8 h-8 text-neutral-400" />
                         </div>
                     </div>

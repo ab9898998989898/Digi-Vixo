@@ -66,13 +66,13 @@ export default function Process() {
     ];
 
     return (
-        <section ref={containerRef} className="py-32 px-6 bg-white dark:bg-black relative">
+        <section ref={containerRef} className="py-32 px-6 bg-black relative">
             <div className="max-w-5xl mx-auto relative">
                 <h2 className="text-center text-4xl md:text-6xl font-bold tracking-tighter mb-24">The Digivixo Process</h2>
 
                 {/* Central timeline line */}
-                <div className="absolute left-0 md:left-1/2 top-32 bottom-0 w-[1px] bg-neutral-200 dark:bg-neutral-800 -translate-x-1/2 hidden md:block">
-                    <div ref={lineRef} className="w-full bg-black dark:bg-white" />
+                <div className="absolute left-0 md:left-1/2 top-32 bottom-0 w-[1px] bg-neutral-800 -translate-x-1/2 hidden md:block">
+                    <div ref={lineRef} className="w-full bg-white" />
                 </div>
 
                 <div className="space-y-24">
@@ -82,17 +82,17 @@ export default function Process() {
                             index % 2 === 1 && "md:flex-row-reverse"
                         )}>
                             <div className="flex-1 w-full md:w-1/2 text-right md:text-right">
-                                <div className={cn("p-8 rounded-3xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800", index % 2 === 1 ? "md:text-left" : "md:text-right text-left")}>
-                                    <span className="text-6xl font-bold text-neutral-200 dark:text-neutral-800 mb-4 block">{step.number}</span>
+                                <div className={cn("p-8 rounded-3xl bg-neutral-900 border border-neutral-800", index % 2 === 1 ? "md:text-left" : "md:text-right text-left")}>
+                                    <span className="text-6xl font-bold text-neutral-800 mb-4 block">{step.number}</span>
                                     <h3 className="text-2xl font-bold mb-4">{step.title}</h3>
-                                    <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                    <p className="text-neutral-400 leading-relaxed">
                                         {step.content}
                                     </p>
                                 </div>
                             </div>
                             {/* Spacer for center line */}
                             <div className="hidden md:block w-8 flex-shrink-0 relative">
-                                <div className="w-4 h-4 bg-black dark:bg-white rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ring-4 ring-white dark:ring-black" />
+                                <div className="w-4 h-4 bg-white rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ring-4 ring-black" />
                             </div>
                             <div className="flex-1 w-full md:w-1/2" />
                         </div>
