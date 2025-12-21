@@ -1,6 +1,6 @@
 "use client";
 
-import { User, Linkedin, Twitter, Mail } from "lucide-react";
+import { User, Linkedin, Twitter, Mail, Github, Instagram } from "lucide-react";
 import Image from "next/image";
 
 export default function TeamDetails() {
@@ -14,9 +14,9 @@ export default function TeamDetails() {
                         <Image src="/abdullah.jpeg" alt="Abdullah" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
                                 <div className="flex gap-4 text-white">
-                                    <a href="#" className="hover:text-neutral-300 transition-colors"><Linkedin /></a>
-                                    <a href="#" className="hover:text-neutral-300 transition-colors"><Twitter /></a>
-                                    <a href="#" className="hover:text-neutral-300 transition-colors"><Mail /></a>
+                                    <a href="https://www.linkedin.com/in/abdullah-nadeem-319560285" className="hover:text-neutral-300 transition-colors"><Linkedin /></a>
+                                    <a href="https://github.com/ab9898998989898" className="hover:text-neutral-300 transition-colors"><Github /></a>
+                                    <a href="mailto:abdullahnadeem2580@gmail.com" className="hover:text-neutral-300 transition-colors"><Mail /></a>
                                 </div>
                             </div>
                         </div>
@@ -69,9 +69,9 @@ export default function TeamDetails() {
                             <Image src="/hassan.jpeg" alt="Hassan" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
                                 <div className="flex gap-4 text-white">
-                                    <a href="#" className="hover:text-neutral-300 transition-colors"><Linkedin /></a>
+                                    <a href="#" className="hover:text-neutral-300 transition-colors"><Instagram /></a>
                                     <a href="#" className="hover:text-neutral-300 transition-colors"><Twitter /></a>
-                                    <a href="#" className="hover:text-neutral-300 transition-colors"><Mail /></a>
+                                    <a href="mailto:e.com.hit@gmail.com" className="hover:text-neutral-300 transition-colors"><Mail /></a>
                                 </div>
                             </div>
                         </div>
