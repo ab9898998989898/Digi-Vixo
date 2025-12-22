@@ -13,7 +13,7 @@ export default function ContactForm() {
             </div>
 
             <a
-                href="https://docs.google.com/forms"
+                href="https://forms.gle/jmbPHHzFfxDmJnGq6"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-white text-black py-4 px-8 rounded-full font-bold uppercase tracking-widest hover:opacity-80 transition-opacity flex items-center justify-center gap-3 group"
