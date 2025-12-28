@@ -21,9 +21,8 @@ export default function Footer() {
                     </div>
                     <div className="flex flex-col gap-4">
                         <h3 className="text-sm uppercase tracking-widest text-neutral-500">Socials</h3>
-                        <a href="#" className="hover:text-neutral-400 transition-colors">Instagram</a>
-                        <a href="#" className="hover:text-neutral-400 transition-colors">LinkedIn</a>
-                        <a href="#" className="hover:text-neutral-400 transition-colors">Twitter</a>
+                        <a href="https://www.instagram.com/abdullahx__.19" className="hover:text-neutral-400 transition-colors">Instagram</a>
+                        <a href="https://www.linkedin.com/in/abdullah-nadeem-lkd" className="hover:text-neutral-400 transition-colors">LinkedIn</a>
                     </div>
                 </div>
             </div>

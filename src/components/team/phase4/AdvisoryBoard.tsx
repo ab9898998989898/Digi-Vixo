@@ -17,7 +17,7 @@ export default function AdvisoryBoard() {
             name: "Dr. Elena Vance",
             role: "Supply Chain Strategy",
             ex: "Ex-VP Logistics at Amazon",
-            image: "bg-neutral-800" // Placeholder color
+            image: "bg-neutral-800" 
         },
         {
             name: "Marcus Chen",
@@ -69,10 +69,6 @@ export default function AdvisoryBoard() {
                             <h3 className="text-xl font-bold">{advisor.name}</h3>
                             <p className="text-accent font-medium text-sm mb-2">{advisor.role}</p>
                             <p className="text-neutral-500 text-sm italic">{advisor.ex}</p>
-
-                            <a href="#" className="inline-block mt-4 text-neutral-400 hover:text-blue-500 transition-colors">
-                                <Linkedin className="w-5 h-5" />
-                            </a>
                         </div>
                     ))}
                 </div>
