@@ -15,20 +15,20 @@ export default function AdvisoryBoard() {
     const advisors = [
         {
             name: "Dr. Elena Vance",
-            role: "Supply Chain Strategy",
-            ex: "Ex-VP Logistics at Amazon",
-            image: "bg-neutral-800" 
+            role: "Cloud Architecture",
+            ex: "Ex-Engineering Lead at AWS",
+            image: "bg-neutral-800"
         },
         {
             name: "Marcus Chen",
-            role: "Global Trade Compliance",
-            ex: "Former Trade Commissioner",
+            role: "Cybersecurity & Compliance",
+            ex: "Former CTO at Fintech Global",
             image: "bg-neutral-700"
         },
         {
             name: "Sarah O'Connell",
-            role: "E-commerce Growth",
-            ex: "CMO at Shopify Plus Agency",
+            role: "Digital Transformation",
+            ex: "Strategy Lead at Google Cloud",
             image: "bg-neutral-600"
         }
     ];

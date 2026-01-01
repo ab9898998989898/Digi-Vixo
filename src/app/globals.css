@@ -29,6 +29,10 @@
   --red: #e53e3e;
 }
 
+
+html{
+  scroll-behavior: smooth;
+}
 /* 
    We keep the media query block empty or remove it because 
    we want the dark variables to be the DEFAULT for everyone.

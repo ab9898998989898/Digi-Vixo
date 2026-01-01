@@ -1,95 +1,160 @@
 import ServiceSection from "@/components/services/ServiceSection";
 import ServiceProcess from "@/components/services/ServiceProcess";
 import ServiceFAQ from "@/components/services/ServiceFAQ";
-import DropshippingDeepDive from "@/components/services/phase3/DropshippingDeepDive";
-import WholesaleDeepDive from "@/components/services/phase3/WholesaleDeepDive";
-import DigitalProductsDeepDive from "@/components/services/phase4/DigitalProductsDeepDive";
-import DigitalServicesDeepDive from "@/components/services/phase4/DigitalServicesDeepDive";
+import WebDevDeepDive from "@/components/services/phase3/WebDevDeepDive";
+import WebAppsDeepDive from "@/components/services/phase3/WebAppsDeepDive";
+import DesignDeepDive from "@/components/services/phase4/DesignDeepDive";
+import AIDeepDive from "@/components/services/phase4/AIDeepDive";
+import ShopifyDeepDive from "@/components/services/ecom/ShopifyDeepDive";
+import AmazonDeepDive from "@/components/services/ecom/AmazonDeepDive";
 import TechStackGrid from "@/components/services/phase4/TechStackGrid";
+import MarketingDeepDive from "@/components/services/marketing/MarketingDeepDive";
+import WordPressDeepDive from "@/components/services/wordpress/WordPressDeepDive";
 import SLASpecs from "@/components/services/phase4/SLASpecs";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Services | DIGIVIXO - Digital Business Solutions & Commerce",
-    description: "Explore DIGIVIXO's five core digital services: Website Development, AI & ML Solutions, Digital Marketing, Shopify & Amazon Store Management, plus dropshipping and wholesale operations.",
+    title: "Services | DIGIVIXO - Professional IT & E-commerce Solutions",
+    description: "Explore DIGIVIXO's core service pillars: Website Development, Web Applications & SaaS, Graphic Design, Shopify development, Amazon management, Digital Marketing, WordPress development, and AI solutions.",
 };
 
 export default function ServicesPage() {
     return (
         <main className="pt-20">
             <div className="py-24 px-6 text-center space-y-6 bg-gradient-to-b from-neutral-900 to-black">
-                <h1 className="text-5xl md:text-7xl font-bold tracking-tighter">Your Full-Stack Digital Partner</h1>
+                <h1 className="text-5xl md:text-7xl font-bold tracking-tighter">Your Strategic Digital Partner</h1>
                 <p className="text-xl text-neutral-500 max-w-2xl mx-auto">
-                    Five digital business pillars. Global commerce operations. One trusted platform.
+                    Professional IT and E-commerce pillars. Scalable business solutions. One commitment to technical excellence.
                 </p>
             </div>
 
             <ServiceSection
-                id="dropshipping"
-                title="Dropshipping Services"
-                description="We streamline your supply chain with our elite dropshipping network. From product sourcing to final delivery, we handle the logistics so you can focus on marketing and growth."
-                imageSrc="/dropship.png"
+                id="web-dev"
+                title="Website Development"
+                description="We build high-performance, responsive websites that serve as the foundation of your digital presence. From corporate portfolios to complex landing pages, our solutions are optimized for speed, security, and conversion."
+                imageSrc="/web-dev.avif"
                 features={[
-                    "Global Supplier Network",
-                    "Automated Order Fulfillment",
-                    "Quality Control Inspections",
-                    "Fast International Shipping",
-                    "Seamless Shopify Integration"
+                    "Custom Business Websites",
+                    "Corporate Portfolio Sites",
+                    "High-Converting Landing Pages",
+                    "SEO-Friendly Architecture",
+                    "Mobile-First Design"
                 ]}
             />
-            <DropshippingDeepDive />
+            <WebDevDeepDive />
 
             <ServiceProcess />
 
             <ServiceSection
-                id="wholesale"
-                title="Wholesale Solutions"
-                description="Scale your inventory with our B2B wholesale management. Access bulk pricing and exclusive products to maximize your profit margins."
-                imageSrc="/wholesale.jpg"
+                id="web-apps"
+                title="Web Applications & SaaS"
+                description="Scale your operations with custom-built web applications and SaaS platforms. We design and develop powerful dashboards, admin panels, and business tools that streamline your internal processes."
+                imageSrc="/saas.avif"
                 reversed
                 features={[
-                    "Competitive Bulk Pricing",
-                    "Dedicated Account Manager",
-                    "Custom Branding Options",
-                    "Logistics & Warehousing",
-                    "Flexible Payment Terms"
+                    "Custom SaaS Dashboards",
+                    "Business Admin Panels",
+                    "Scalable Cloud Solutions",
+                    "API Development & Integration",
+                    "Professional UI/UX Interface"
                 ]}
             />
-            <WholesaleDeepDive />
+            <WebAppsDeepDive />
             <TechStackGrid />
             <SLASpecs />
 
             <ServiceSection
-                id="digital"
-                title="Digital Products"
-                description="Accelerate your learning and business setup with our premium digital assets. Ebooks, templates, and guides crafted by industry leaders."
-                imageSrc="/digital-products.jpg"
+                id="design"
+                title="Graphic Design & UI/UX"
+                description="Enhance your brand identity with professional design services. We focus on visual clarity and brand consistency to create memorable digital experiences for your users."
+                imageSrc="/ui.jpg"
                 features={[
-                    "Comprehensive E-books",
-                    "Business Templates & Checklists",
-                    "AI-Powered Tools & Prompts",
-                    "Marketing Strategy Guides",
-                    "Exclusive Video Courses"
+                    "Modern Logo & Branding",
+                    "UI & UX Design",
+                    "Marketing Banners & Creatives",
+                    "Social Media Assets",
+                    "User-Centered Interfaces"
                 ]}
             />
-            <DigitalProductsDeepDive />
+            <DesignDeepDive />
 
             <ServiceSection
-                id="digital-services"
-                title="Digital Services"
-                description="Accelerate your business growth with our premium digital services."
-                imageSrc="/digital-services.png"
+                id="shopify"
+                title="Shopify Development"
+                description="Professional platform engineering and custom theme development for high-growth brands. We build scalable, high-conversion Shopify ecosystems tailored to your business goals."
+                imageSrc="/shopifyy.jpg"
                 reversed
                 features={[
-                    "Website Development",
-                    "Ai Chatbot Development",
-                    "Shopify Store Development",
-                    "Amazon Store Development",
-                    "Personal Graphic Design",
-                    "Social Media Management"
+                    "Custom Theme Engineering",
+                    "Advanced App Integration",
+                    "Headless Commerce Solutions",
+                    "Performance Optimization",
+                    "Migration & Management"
                 ]}
             />
-            <DigitalServicesDeepDive />
+            <ShopifyDeepDive />
+
+            <ServiceSection
+                id="amazon"
+                title="Amazon Management"
+                description="Data-driven marketplace growth and strategic management for Amazon Private Label. We optimize your operational technicalities to maximize marketplace dominance."
+                imageSrc="/dropship.png"
+                features={[
+                    "Strategic Account Management",
+                    "Advanced PPC Optimization",
+                    "A9 Algorithm SEO",
+                    "Account Health Monitoring",
+                    "Global Expansion Strategy"
+                ]}
+            />
+            <AmazonDeepDive />
+
+            <ServiceSection
+                id="marketing"
+                title="Digital Marketing & Social Media"
+                description="Technical marketing strategies designed for global reach. We manage your presence across Meta, TikTok, and Snapchat, while optimizing search visibility through advanced SEO and Google Ads."
+                imageSrc="/digi.jpg"
+                features={[
+                    "Professional Social Media Management",
+                    "Facebook & Instagram Ads (Meta)",
+                    "TikTok & Snapchat Marketing",
+                    "Search Engine Optimization (SEO)",
+                    "Google Ads & SEM Performance"
+                ]}
+            />
+            <MarketingDeepDive />
+
+            <ServiceSection
+                id="wordpress"
+                title="WordPress Development"
+                description="Professional ecosystem engineering and custom theme development for WordPress. We build secure, high-performance, and scalable CMS solutions tailored to your business needs."
+                imageSrc="/wordpress.png"
+                reversed
+                features={[
+                    "Custom Theme Engineering",
+                    "Plugin Development & Integration",
+                    "Core Web Vitals Optimization",
+                    "Advanced Security Hardening",
+                    "Managed CMS Maintenance"
+                ]}
+            />
+            <WordPressDeepDive />
+
+            <ServiceSection
+                id="ai"
+                title="Automation & AI Services"
+                description="Optimize your business processes with intelligent automation and AI-driven solutions. We help you reduce costs and improve efficiency through cutting-edge technology integrations."
+                imageSrc="/ai.jpg"
+                reversed
+                features={[
+                    "Business Process Automation",
+                    "Workflow Optimization",
+                    "AI Tool Integrations",
+                    "Intelligent Data Solutions",
+                    "Custom AI Applications"
+                ]}
+            />
+            <AIDeepDive />
 
             <ServiceFAQ />
         </main>

@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ShieldCheck, BarChart4, Globe2, Zap } from "lucide-react";
+import { Briefcase, Layers, Users, Lightbulb } from "lucide-react";
 
 export default function WhyChooseUs() {
     const sectionRef = useRef<HTMLDivElement>(null);
@@ -27,24 +27,24 @@ export default function WhyChooseUs() {
 
     const features = [
         {
-            icon: <ShieldCheck className="w-10 h-10 mb-6 text-emerald-500" />,
-            title: "Vetted Supplier Network",
-            description: "Every supplier in our network undergoes rigorous inspection to ensure product quality and reliability for your dropshipping and wholesale operations.",
+            icon: <Briefcase className="w-10 h-10 mb-6 text-emerald-500" />,
+            title: "Business-First Strategy",
+            description: "We align our technical solutions with your business goals, ensuring every project delivers measurable value and supports your long-term growth.",
         },
         {
-            icon: <BarChart4 className="w-10 h-10 mb-6 text-blue-500" />,
-            title: "Five Core Digital Services",
-            description: "Website development, AI solutions, digital marketing, and Shopify/Amazon store management—complete digital business support under one roof.",
+            icon: <Layers className="w-10 h-10 mb-6 text-blue-500" />,
+            title: "Scalable Architecture",
+            description: "Our websites and applications are built with scalability in mind, allowing your digital infrastructure to grow seamlessly as your business expands.",
         },
         {
-            icon: <Globe2 className="w-10 h-10 mb-6 text-purple-500" />,
-            title: "Teaching Experience",
-            description: "With 2–3 years of hands-on teaching experience locally and internationally, we understand real student learning gaps and focus on practical, market-relevant skills.",
+            icon: <Users className="w-10 h-10 mb-6 text-purple-500" />,
+            title: "User-Centered Design",
+            description: "We prioritize the user experience, creating intuitive and accessible interfaces that engage your audience and drive higher conversion rates.",
         },
         {
-            icon: <Zap className="w-10 h-10 mb-6 text-amber-500" />,
-            title: "Affordable Premium Education",
-            description: "Access premium courses that normally cost hundreds or thousands of dollars—for just 10,000–15,000 PKR through our LMS platform.",
+            icon: <Lightbulb className="w-10 h-10 mb-6 text-amber-500" />,
+            title: "Innovative Automation",
+            description: "Leverage the power of AI and workflow automation to eliminate repetitive tasks, reduce operational costs, and increase overall efficiency.",
         },
     ];
 

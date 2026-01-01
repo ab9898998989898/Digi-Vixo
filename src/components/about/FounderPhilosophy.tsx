@@ -3,7 +3,7 @@ export default function FounderPhilosophy() {
         <section className="py-32 px-6 bg-neutral-900 border-y border-neutral-800">
             <div className="max-w-5xl mx-auto text-center space-y-12">
                 <blockquote className="text-3xl md:text-5xl font-serif italic leading-tight text-neutral-200">
-                    &quot;Real learning happens through doing. Our job is to give you the tools, knowledge, and systems to build something real—not just theory, but results you can see.&quot;
+                    &quot;Technical excellence is not just about writing code; it's about building reliable systems that solve real business problems and empower organizations to scale with confidence.&quot;
                 </blockquote>
                 <div className="flex flex-col items-center gap-2">
                     <cite className="not-italic font-bold text-lg uppercase tracking-widest">Abdullah &amp; Hassan</cite>

@@ -7,7 +7,7 @@ export default function Footer() {
                 <div className="flex flex-col gap-4">
                     <h2 className="text-4xl font-bold tracking-tighter">DIGIVIXO</h2>
                     <p className="max-w-xs text-neutral-400">
-                        Empowering businesses with premium dropshipping, wholesale solutions, and digital assets.
+                        Empowering businesses with professional IT solutions, custom development, and intelligent digital services.
                     </p>
                 </div>
 

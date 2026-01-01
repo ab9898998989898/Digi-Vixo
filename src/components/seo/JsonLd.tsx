@@ -10,7 +10,7 @@ export default function JsonLd() {
             "https://www.linkedin.com/company/digivixo",
             "https://twitter.com/digivixo"
         ],
-        "description": "Premium dropshipping and wholesale partner offering digital products and global supply chain solutions.",
+        "description": "Professional IT and digital services provider specialized in website development, web applications, automation, and AI solutions.",
         "founders": [
             {
                 "@type": "Person",

@@ -1,6 +1,6 @@
 "use client";
 
-import { CheckCircle2, Download, FileText, Layout, PlayCircle } from "lucide-react";
+import { CheckCircle2, Bot, Zap, Database, Brain } from "lucide-react";
 import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -10,7 +10,7 @@ if (typeof window !== "undefined") {
     gsap.registerPlugin(ScrollTrigger, useGSAP);
 }
 
-export default function DigitalProductsDeepDive() {
+export default function AIDeepDive() {
     const containerRef = useRef(null);
 
     useGSAP(() => {
@@ -21,13 +21,13 @@ export default function DigitalProductsDeepDive() {
             }
         });
 
-        tl.from(".left-content", {
+        tl.from(".left-content-s", {
             x: -50,
             opacity: 0,
             duration: 0.8,
             ease: "power3.out"
         })
-            .from(".right-content", {
+            .from(".right-content-s", {
                 x: 50,
                 opacity: 0,
                 duration: 0.8,
@@ -38,36 +38,37 @@ export default function DigitalProductsDeepDive() {
     return (
         <section ref={containerRef} className="py-24 px-6 bg-neutral-900 border-t border-neutral-800">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
-                <div className="left-content space-y-8">
-                    <h3 className="text-3xl font-bold text-primary">Curated Intellectual Capital</h3>
+                <div className="left-content-s space-y-8">
+                    <h3 className="text-3xl font-bold text-primary">Intelligent Automation & AI</h3>
                     <div className="prose prose-invert max-w-none text-neutral-400">
                         <p>
-                            Digivixo’s digital products are not generic, mass-produced templates. They are <strong>battle-tested frameworks</strong> extracted from actual 7-figure operations. We distill complex strategies into actionable assets.
+                            Digivixo empowers organizations with cutting-edge automation and AI-driven tools designed to optimize business processes and unlock new levels of efficiency.
                         </p>
                         <p>
-                            <strong>The "Vixo" Standard:</strong> Every asset undergoes a rigorous validation process by industry experts before publication.
+                            <strong>Process Optimization:</strong> We analyze your current workflows to identify bottlenecks and implement automated solutions that eliminate manual errors and save valuable time.
                         </p>
                         <p>
-                            <strong>Dynamic Content Updates:</strong> Marketing algorithms change. Designing trends evolve. Our products are "living assets." When you purchase a guide or template, you receive lifetime access to all future version updates, ensuring your toolkit never becomes obsolete.
+                            <strong>Intelligent AI Integration:</strong> From advanced chatbots to data-driven predictive models, we integrate AI into your digital infrastructure to enhance decision-making and improve user experiences.
                         </p>
                         <ul className="list-disc pl-5 space-y-2">
-                            <li><strong>Strategic Blueprints:</strong> Step-by-step execution plans for scaling.</li>
-                            <li><strong>Operational SOPs:</strong> Standard Operating Procedures to automate your workflow.</li>
-                            <li><strong>High-Conversion Scripts:</strong> Copy-paste templates for emails, ads, and outreach.</li>
+                            <li><strong>Workflow Automation:</strong> Streamlining repetitive tasks across different platforms.</li>
+                            <li><strong>AI-Powered Tools:</strong> Building custom applications that leverage machine learning.</li>
+                            <li><strong>Data-Driven Insights:</strong> Converting complex data sets into actionable business intelligence.</li>
+                            <li><strong>Smart Integrations:</strong> Connecting your digital tools with intelligent interfaces.</li>
                         </ul>
                     </div>
                 </div>
 
-                <div className="right-content bg-black p-10 rounded-3xl border border-neutral-800">
-                    <h3 className="text-2xl font-bold mb-6">Asset Ecosystem</h3>
+                <div className="right-content-s bg-black p-10 rounded-3xl border border-neutral-800">
+                    <h3 className="text-2xl font-bold mb-6">Core Capabilities</h3>
                     <ul className="space-y-4">
                         {[
-                            "Instant Digital Delivery",
-                            "Commercial Use License",
-                            "Lifetime Version Updates",
-                            "Source Files Included (Figma/PSD)",
-                            "Private Discord Access",
-                            "Expert Video Walkthroughs"
+                            "Business Process Automation",
+                            "Intelligent Chatbot Solutions",
+                            "Data Management & Analytics",
+                            "Cross-Platform Workflow Sync",
+                            "Predictive AI Modeling",
+                            "Automated Reporting Systems"
                         ].map((item, i) => (
                             <li key={i} className="flex items-center gap-3">
                                 <CheckCircle2 className="w-5 h-5 text-emerald-500 flex-shrink-0" />
@@ -77,19 +78,19 @@ export default function DigitalProductsDeepDive() {
                     </ul>
 
                     <div className="mt-10 pt-10 border-t border-neutral-800">
-                        <h4 className="text-sm font-bold uppercase tracking-widest text-neutral-500 mb-4">Supported Formats</h4>
+                        <h4 className="text-sm font-bold uppercase tracking-widest text-neutral-500 mb-4">Innovation Focus</h4>
                         <div className="flex gap-4 flex-wrap">
                             <span className="flex items-center gap-2 px-4 py-2 bg-neutral-800 border border-neutral-700 rounded font-bold text-sm">
-                                <FileText className="w-4 h-4 text-blue-500" /> PDF
+                                <Bot className="w-4 h-4 text-blue-500" /> AI-Driven
                             </span>
                             <span className="flex items-center gap-2 px-4 py-2 bg-neutral-800 border border-neutral-700 rounded font-bold text-sm">
-                                <Layout className="w-4 h-4 text-purple-500" /> Notion
+                                <Zap className="w-4 h-4 text-amber-500" /> Automation
                             </span>
                             <span className="flex items-center gap-2 px-4 py-2 bg-neutral-800 border border-neutral-700 rounded font-bold text-sm">
-                                <PlayCircle className="w-4 h-4 text-red-500" /> MP4
+                                <Database className="w-4 h-4 text-purple-500" /> Big Data
                             </span>
                             <span className="flex items-center gap-2 px-4 py-2 bg-neutral-800 border border-neutral-700 rounded font-bold text-sm">
-                                <Download className="w-4 h-4 text-green-500" /> Zip
+                                <Brain className="w-4 h-4 text-red-500" /> Machine Learning
                             </span>
                         </div>
                     </div>

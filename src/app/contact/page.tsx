@@ -3,8 +3,8 @@ import ContactForm from "@/components/contact/ContactForm";
 import { Mail, MapPin, Phone, Globe } from "lucide-react";
 
 export const metadata: Metadata = {
-    title: "Contact Us | Digivixo",
-    description: "Get in touch with Digivixo for partnerships, dropshipping inquiries, and wholesale opportunities.",
+    title: "Contact Us | Digivixo - Technical Solutions & Partnerships",
+    description: "Connect with Digivixo for professional IT services, custom development, and digital transformation inquiries.",
 };
 
 export default function ContactPage() {
@@ -13,7 +13,7 @@ export default function ContactPage() {
             <div className="py-24 text-center space-y-6 px-6">
                 <h1 className="text-5xl md:text-8xl font-bold tracking-tighter">Get in Touch</h1>
                 <p className="text-xl text-neutral-500 max-w-2xl mx-auto">
-                    We are ready to scale your business. Choose your path below.
+                    We are ready to build and scale your digital future. Let&apos;s discuss your next project.
                 </p>
             </div>
 
@@ -32,7 +32,7 @@ export default function ContactPage() {
                                 <div>
                                     <h3 className="font-bold mb-1">Email Us</h3>
                                     <p className="text-neutral-500 text-sm mb-2">For general inquiries and support:</p>
-                                    <a href="mailto:support@digivixo.com" className="text-lg font-medium hover:underline">digivixoofficial@gmail.com</a>
+                                    <a href="mailto:contact@digivixo.com" className="text-lg font-medium hover:underline">contact@digivixo.com</a>
                                 </div>
                             </div>
 
@@ -43,8 +43,7 @@ export default function ContactPage() {
                                 <div>
                                     <h3 className="font-bold mb-1">Global HQ</h3>
                                     <p className="text-neutral-500">
-                                        123 Commerce Blvd, Suite 400 <br />
-                                        Dubai, UAE
+                                        22 Southville Road  feltham <br /> Middlx London ,TW14 8AU
                                     </p>
                                 </div>
                             </div>

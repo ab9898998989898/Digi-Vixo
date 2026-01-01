@@ -10,7 +10,7 @@ export default function TeamPreview() {
                 <div className="space-y-4">
                     <h2 className="text-4xl md:text-5xl font-bold tracking-tighter">Meet The Founders</h2>
                     <p className="text-neutral-400 max-w-2xl mx-auto">
-                        The visionaries behind Digivixo, dedicated to building the future of digital commerce.
+                        The visionaries behind Digivixo, dedicated to building the future of digital transformation.
                     </p>
                 </div>
 
@@ -25,7 +25,7 @@ export default function TeamPreview() {
                             <p className="text-accent text-sm uppercase tracking-widest font-bold">Chief Executive Officer</p>
                         </div>
                         <p className="text-neutral-400 leading-relaxed">
-                            A strategic architect of digital commerce ecosystems. Abdullah specializes in high-velocity scaling, overseeing the infrastructure that powers Digivixo’s global logistics network.
+                            A strategic architect of technical ecosystems and high-performance software. Abdullah specializes in driving digital innovation and building scalable infrastructure that empowers modern businesses.
                         </p>
                     </div>
 
@@ -39,7 +39,7 @@ export default function TeamPreview() {
                             <p className="text-accent text-sm uppercase tracking-widest font-bold">Chief Operations Officer</p>
                         </div>
                         <p className="text-neutral-400 leading-relaxed">
-                            The operational backbone of Digivixo. Hassan engineers seamless supply chain solutions and optimizes cross-border trade flows for maximum efficiency and client retention.
+                            The technical backbone of Digivixo. Hassan engineers seamless digital architectures and optimizes complex workflows to ensure operational efficiency and sustainable technical growth.
                         </p>
                     </div>
                 </div>

@@ -28,28 +28,28 @@ export default function Timeline() {
     const milestones = [
         {
             year: "2021",
-            title: "The Beginning",
-            description: "Abdullah and Hassan begin their journey in e-commerce and digital education, gaining hands-on experience teaching locally and internationally while running their own online ventures."
+            title: "Technical Foundations",
+            description: "Abdullah and Hassan begin their journey in professional software development and technical consulting, focusing on building high-performance digital solutions for early-stage startups."
         },
         {
             year: "2022",
-            title: "Digital Services Launch",
-            description: "We formalize our five core digital services: website development, AI solutions, digital marketing, and Shopify/Amazon store management—helping businesses establish their online presence."
+            title: "Digital Service Expansion",
+            description: "We formalize our core digital service pillars, expanding into custom website development, initial AI integrations, and technical strategy consulting for growing businesses."
         },
         {
             year: "2023",
-            title: "Commerce Operations",
-            description: "DIGIVIXO expands into global dropshipping and wholesale operations in Pakistan, creating reliable supply chains for entrepreneurs and established businesses alike."
+            title: "Enterprise Solutions",
+            description: "Digivixo scales its capabilities to deliver enterprise-grade web applications and complex SaaS platforms, focusing on robust backend architectures and scalable cloud infrastructure."
         },
         {
             year: "2024",
-            title: "LMS & Education",
-            description: "We launch our Learning Management System, providing affordable access to premium courses that normally cost hundreds or thousands of dollars—for just a fraction of the price."
+            title: "Process & Quality Excellence",
+            description: "We formalize our internal quality benchmarks and comprehensive Service Level Agreements (SLAs), ensuring consistent technical integrity and operational reliability for all digital assets."
         },
         {
             year: "2025",
-            title: "One-Platform Ecosystem",
-            description: "DIGIVIXO becomes a complete tech and commerce solution: Main website, LMS, and active e-commerce store—allowing users to learn, see, and apply real-world business strategies."
+            title: "Integrated Digital Partner",
+            description: "Digivixo establishes itself as a complete digital transformation partner, providing end-to-end IT solutions that integrate custom development, UI/UX engineering, and intelligent automation."
         }
     ];
 

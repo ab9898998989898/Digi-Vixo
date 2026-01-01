@@ -31,10 +31,10 @@ export default function BrandStory() {
                 </h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-lg md:text-xl leading-relaxed text-neutral-300">
                     <p className="story-text">
-                        DIGIVIXO is a one-platform tech and commerce solution founded by Abdullah and Hassan—two entrepreneurs with 2–3 years of hands-on teaching experience locally and internationally. We saw a gap: businesses struggling with unreliable suppliers, fragmented digital services, and expensive courses that don&apos;t translate to real-world skills.
+                        Digivixo is a professional IT and digital services firm founded with a clear objective: to bridge the gap between complex technical challenges and business growth. We recognized that many organizations struggle with fragmented digital strategies, unreliable systems, and solutions that fail to scale.
                     </p>
                     <p className="story-text">
-                        So we built something different. DIGIVIXO combines global dropshipping and wholesale operations with five core digital services—website development, AI solutions, digital marketing, and Shopify/Amazon store management. Through our LMS, we also provide affordable access to premium, market-relevant courses. Learn, execute, and scale—all in one place.
+                        We built Digivixo to provide a unified approach to digital transformation. By combining expert website development, custom web applications, and intelligent automation, we deliver end-to-end solutions that are built for performance and reliability. Our goal is to empower businesses with the technology they need to lead in their respective industries.
                     </p>
                 </div>
             </div>

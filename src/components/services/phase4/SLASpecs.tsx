@@ -43,34 +43,34 @@ export default function SLASpecs() {
                         </thead>
                         <tbody className="divide-y divide-white/10">
                             <tr className="bg-background hover:bg-white/5 transition-colors">
-                                <td className="p-6 font-medium">Order Processing Time</td>
-                                <td className="p-6 text-neutral-400">24 Hours</td>
+                                <td className="p-6 font-medium">System Availability</td>
+                                <td className="p-6 text-neutral-400">99.5%</td>
+                                <td className="p-6 text-accent font-bold">99.99%</td>
+                                <td className="p-6 text-green-500 text-sm">High-Availability Infrastructure</td>
+                            </tr>
+                            <tr className="bg-background hover:bg-white/5 transition-colors">
+                                <td className="p-6 font-medium">Support Response Time</td>
+                                <td className="p-6 text-neutral-400">12 Hours</td>
+                                <td className="p-6 text-accent font-bold">1 Hour</td>
+                                <td className="p-6 text-green-500 text-sm">Dedicated Communication Channel</td>
+                            </tr>
+                            <tr className="bg-background hover:bg-white/5 transition-colors">
+                                <td className="p-6 font-medium">Security Patch Deployment</td>
+                                <td className="p-6 text-neutral-400">48 Hours</td>
                                 <td className="p-6 text-accent font-bold">4 Hours</td>
-                                <td className="p-6 text-green-500 text-sm">100% Refund on Late Shipments</td>
+                                <td className="p-6 text-green-500 text-sm">Automated Security Audits</td>
                             </tr>
                             <tr className="bg-background hover:bg-white/5 transition-colors">
-                                <td className="p-6 font-medium">Inventory Accuracy</td>
-                                <td className="p-6 text-neutral-400">98.5%</td>
-                                <td className="p-6 text-accent font-bold">99.9%</td>
-                                <td className="p-6 text-green-500 text-sm">Free Replacement + Credit</td>
-                            </tr>
-                            <tr className="bg-background hover:bg-white/5 transition-colors">
-                                <td className="p-6 font-medium">response Time (Support)</td>
-                                <td className="p-6 text-neutral-400">24 Hours</td>
-                                <td className="p-6 text-accent font-bold">30 Minutes</td>
-                                <td className="p-6 text-green-500 text-sm">Dedicated Slack Channel</td>
-                            </tr>
-                            <tr className="bg-background hover:bg-white/5 transition-colors">
-                                <td className="p-6 font-medium">Defect Rate (Manufacturing)</td>
-                                <td className="p-6 text-neutral-400">&lt; 2.0%</td>
-                                <td className="p-6 text-accent font-bold">&lt; 0.5%</td>
-                                <td className="p-6 text-green-500 text-sm">Automated QC Reports</td>
+                                <td className="p-6 font-medium">Project Reliability</td>
+                                <td className="p-6 text-neutral-400">98% Success</td>
+                                <td className="p-6 text-accent font-bold">100% Delivery</td>
+                                <td className="p-6 text-green-500 text-sm">Comprehensive QA Testing</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <p className="mt-4 text-xs text-neutral-400 text-right">
-                    * SLAs are legally binding in our Partner Contract.
+                    * Service Level Agreements are defined in the Project Service Agreement.
                 </p>
             </div>
         </section>

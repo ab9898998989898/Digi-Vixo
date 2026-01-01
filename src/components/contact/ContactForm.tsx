@@ -6,9 +6,9 @@ export default function ContactForm() {
     return (
         <div className="flex flex-col items-start justify-center h-full space-y-8 min-h-[400px]">
             <div className="space-y-4">
-                <h3 className="text-xl font-bold">Streamlined Intake Process</h3>
+                <h3 className="text-xl font-bold">Project Discovery Process</h3>
                 <p className="text-neutral-400 leading-relaxed">
-                    To ensure your inquiry is routed to the correct department immediately, we utilize a centralized intake form. Please click the button below to submit your partnership request.
+                    To ensure your inquiry is routed to the correct technical team immediately, we utilize a centralized discovery form. Please click the button below to submit your project details.
                 </p>
             </div>
 

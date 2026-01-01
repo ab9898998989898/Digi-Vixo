@@ -29,13 +29,13 @@ export default function MissionVision() {
                 <div className="mv-card p-10 bg-black rounded-3xl border border-neutral-800 space-y-6">
                     <h2 className="text-3xl font-bold">Our Mission</h2>
                     <p className="text-neutral-400 leading-relaxed">
-                        To enable founders, students, and businesses to access global dropshipping and wholesale operations, leverage complete digital business solutions, and learn market-relevant skills through practical execution—all on one platform.
+                        To empower businesses by providing reliable, high-performance IT solutions that simplify complex processes, enhance digital presence, and drive sustainable growth through innovation and technical excellence.
                     </p>
                 </div>
                 <div className="mv-card p-10 bg-white text-black rounded-3xl space-y-6">
                     <h2 className="text-3xl font-bold">Our Vision</h2>
                     <p className="text-neutral-600 leading-relaxed">
-                        To be the world&apos;s most trusted one-platform solution for digital business operations, dropshipping, wholesale, and education—built on clarity, practical systems, long-term credibility, and sustainable growth.
+                        To be a globally recognized leader in digital transformation, known for our commitment to quality, integrity, and the delivery of intelligent solutions that shape the future of business technology.
                     </p>
                 </div>
             </div>

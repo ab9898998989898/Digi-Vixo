@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Digivixo | Global Dropshipping & Wholesale Partner",
-  description: "Digivixo is a premium dropshipping and wholesale partner offering digital products and global supply chain solutions.",
+  title: "Digivixo | Professional IT & Digital Business Solutions",
+  description: "Digivixo provides professional website development, custom web applications, automation, and AI-driven solutions for growing businesses.",
 };
 
 export default function RootLayout({

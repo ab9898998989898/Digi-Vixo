@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Truck, BarChart2 } from "lucide-react";
+import { Server, Cloud, CodeXml } from "lucide-react";
 import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -10,7 +10,7 @@ if (typeof window !== "undefined") {
     gsap.registerPlugin(ScrollTrigger, useGSAP);
 }
 
-export default function WholesaleDeepDive() {
+export default function WebAppsDeepDive() {
     const containerRef = useRef(null);
 
     useGSAP(() => {
@@ -43,32 +43,32 @@ export default function WholesaleDeepDive() {
         <section ref={containerRef} className="py-24 px-6 bg-black border-t border-neutral-800">
             <div className="max-w-7xl mx-auto space-y-16">
                 <div className="text-center max-w-3xl mx-auto">
-                    <h3 className="text-3xl font-bold text-primary mb-6">Enterprise-Grade Logistics</h3>
+                    <h3 className="text-3xl font-bold text-primary mb-6">Scalable Enterprise Solutions</h3>
                     <p className="text-neutral-400 text-lg">
-                        For brands scaling beyond 100 daily orders, the economics of dropshipping shift. Our wholesale division provides the heavy lifting required for mass manufacturing and freight forwarding.
+                        For businesses requiring more than a static presence, our web application division builds dynamic, data-driven platforms that automate complex workflows and drive operational efficiency.
                     </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="feature-card p-8 rounded-2xl bg-neutral-900 border border-neutral-800 hover:shadow-xl transition-shadow">
-                        <Box className="w-12 h-12 text-gold mb-6" />
-                        <h4 className="text-xl font-bold mb-4">MOQ Management</h4>
+                        <Server className="w-12 h-12 text-gold mb-6" />
+                        <h4 className="text-xl font-bold mb-4">Robust Backend Architecture</h4>
                         <p className="text-neutral-400 leading-relaxed text-sm">
-                            We negotiate Minimum Order Quantities (MOQs) down by an average of 40% using our aggregated buying power. Access factory-direct pricing usually reserved for Fortune 500 retailers. We handle the deposit, production QC, and final balance transfer securely.
+                            We architect powerful server-side solutions capable of handling high-concurrency and complex data processing. Our systems are built with redundancy and fault tolerance to ensure your business-critical applications remain available 24/7.
                         </p>
                     </div>
                     <div className="feature-card p-8 rounded-2xl bg-neutral-900 border border-neutral-800 hover:shadow-xl transition-shadow">
-                        <Truck className="w-12 h-12 text-accent mb-6" />
-                        <h4 className="text-xl font-bold mb-4">Freight & Customs</h4>
+                        <Cloud className="w-12 h-12 text-accent mb-6" />
+                        <h4 className="text-xl font-bold mb-4">Cloud Infrastructure</h4>
                         <p className="text-neutral-400 leading-relaxed text-sm">
-                            Navigating DDP (Delivered Duty Paid) vs DDU terms can be complex. We handle all freight forwarding bookings, customs clearance documentation, and last-mile delivery. Whether by Air Express (DHL/FedEx) or Sea Freight (LCL/FCL), we optimize for cost and speed.
+                            Leverage the flexibility and power of modern cloud environments. We design scalable infrastructure that grows with your user base, ensuring consistent performance regardless of traffic spikes or data volume increases.
                         </p>
                     </div>
                     <div className="feature-card p-8 rounded-2xl bg-neutral-900 border border-neutral-800 hover:shadow-xl transition-shadow">
-                        <BarChart2 className="w-12 h-12 text-emerald-500 mb-6" />
-                        <h4 className="text-xl font-bold mb-4">Private Labeling</h4>
+                        <CodeXml className="w-12 h-12 text-emerald-500 mb-6" />
+                        <h4 className="text-xl font-bold mb-4">Advanced API Integration</h4>
                         <p className="text-neutral-400 leading-relaxed text-sm">
-                            Transform generic goods into a defensible brand asset. Our design team works with factories to create custom molds, packaging, and inserts. We provide 3D renders for approval before a single unit is manufactured, minimizing the risk of design errors.
+                            Connect your digital ecosystem effortlessly. We build and integrate custom APIs that allow your different software systems to communicate, share data, and automate cross-platform workflows with precision.
                         </p>
                     </div>
                 </div>
@@ -77,15 +77,15 @@ export default function WholesaleDeepDive() {
                 <div className="case-study bg-primary text-primary-foreground p-12 rounded-3xl relative overflow-hidden">
                     <div className="relative z-10 flex flex-col md:flex-row gap-8 items-center justify-between">
                         <div className="space-y-4">
-                            <div className="text-gold font-bold uppercase tracking-widest text-sm">Case Study: Apparel Brand</div>
-                            <h4 className="text-3xl font-bold">Scaling to $500k/Month</h4>
+                            <div className="text-gold font-bold uppercase tracking-widest text-sm">Case Study: SaaS Transformation</div>
+                            <h4 className="text-3xl font-bold">Optimizing Process Management</h4>
                             <p className="text-neutral-300 max-w-xl">
-                                "Digivixo took us from printing labels in a garage to full 3PL integration. Their custom packaging solution increased our LTV by 22%."
+                                &quot;Digivixo helped us migrate our fragmented manual processes into a unified SaaS dashboard. The transition improved our team&apos;s efficiency by 45% and reduced operational overhead significantly.&quot;
                             </p>
                         </div>
                         <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 min-w-[200px] text-center">
-                            <div className="text-4xl font-bold text-white mb-2">45 Days</div>
-                            <div className="text-neutral-300 text-sm">Concept to Launch</div>
+                            <div className="text-4xl font-bold text-white mb-2">99.9%</div>
+                            <div className="text-neutral-300 text-sm">System Uptime</div>
                         </div>
                     </div>
                     {/* Texture */}

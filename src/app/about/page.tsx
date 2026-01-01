@@ -8,8 +8,8 @@ import CorporateGovernance from "@/components/about/phase3/CorporateGovernance";
 import LeadershipPrinciples from "@/components/about/phase3/LeadershipPrinciples";
 
 export const metadata = {
-    title: "About Us | Digivixo",
-    description: "Learn about Digivixo's journey, mission, and vision to revolutionize global commerce.",
+    title: "About Us | Digivixo - Technical Excellence & Digital Transformation",
+    description: "Learn about Digivixo's journey, mission, and vision to drive technical excellence and professional digital transformation.",
 };
 
 export default function AboutPage() {

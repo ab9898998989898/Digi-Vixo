@@ -5,7 +5,7 @@ import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { cn } from "@/lib/utils";
-import { Globe, Truck, ShoppingBag, BarChart3 } from "lucide-react";
+import { Globe, Layout, Palette, Cpu, ShoppingBag, Box } from "lucide-react";
 
 export default function ServicesPreview() {
     const containerRef = useRef<HTMLDivElement>(null);
@@ -29,28 +29,52 @@ export default function ServicesPreview() {
 
     const services = [
         {
-            title: "Dropshipping",
-            description: "End-to-end fulfillment with global sourcing and fast shipping times.",
-            icon: <Truck className="w-8 h-8" />,
-            link: "/services#dropshipping"
-        },
-        {
-            title: "Wholesale",
-            description: "Bulk ordering solutions for scaling brands with competitive pricing.",
-            icon: <ShoppingBag className="w-8 h-8" />,
-            link: "/services#wholesale"
-        },
-        {
-            title: "Digital Services",
-            description: "Website development, AI solutions, Shopify & Amazon store management.",
+            title: "Website Development",
+            description: "Custom-built, high-performance websites optimized for speed, security, and scalability.",
             icon: <Globe className="w-8 h-8" />,
-            link: "/services#digital-services"
+            link: "/services#web-dev"
         },
         {
-            title: "Education & LMS",
-            description: "Affordable access to premium, market-relevant courses for practical skill-building.",
-            icon: <BarChart3 className="w-8 h-8" />,
-            link: "/services#digital"
+            title: "Web Applications",
+            description: "Advanced SaaS solutions and custom web applications tailored to your business processes.",
+            icon: <Layout className="w-8 h-8" />,
+            link: "/services#web-apps"
+        },
+        {
+            title: "UI/UX & Design",
+            description: "Premium brand identity, user interface, and experience design that converts visitors into customers.",
+            icon: <Palette className="w-8 h-8" />,
+            link: "/services#design"
+        },
+        {
+            title: "Shopify Development",
+            description: "Professional platform engineering and custom theme development for high-growth e-commerce brands.",
+            icon: <ShoppingBag className="w-8 h-8" />,
+            link: "/services#shopify"
+        },
+        {
+            title: "Amazon Management",
+            description: "Data-driven marketplace management and strategic growth solutions for Amazon Private Label.",
+            icon: <Box className="w-8 h-8" />,
+            link: "/services#amazon"
+        },
+        {
+            title: "Digital Marketing",
+            description: "Data-driven social media management and search engine marketing solutions for global brand growth.",
+            icon: <Globe className="w-8 h-8" />,
+            link: "/services#marketing"
+        },
+        {
+            title: "WordPress Development",
+            description: "Professional ecosystem engineering, custom themes, and enterprise-grade security for WordPress.",
+            icon: <Layout className="w-8 h-8" />,
+            link: "/services#wordpress"
+        },
+        {
+            title: "Automation & AI",
+            description: "Intelligent workflow automation and AI-driven tools to optimize operations and drive innovation.",
+            icon: <Cpu className="w-8 h-8" />,
+            link: "/services#ai"
         }
     ];
 
@@ -59,14 +83,14 @@ export default function ServicesPreview() {
             <div className="max-w-7xl mx-auto space-y-16">
                 <div className="space-y-4 max-w-2xl">
                     <h2 className="text-4xl md:text-5xl font-bold tracking-tighter">
-                        Complete Solutions <br />for Digital Business.
+                        Comprehensive Digital <br />Service Solutions.
                     </h2>
                     <p className="text-neutral-400 text-lg">
-                        Five core digital services, global commerce operations, and practical education—all on one platform.
+                        We provide end-to-end IT services designed to build, scale, and automate your digital presence.
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {services.map((service, index) => (
                         <Link
                             key={index}

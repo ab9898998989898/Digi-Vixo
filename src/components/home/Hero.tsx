@@ -50,12 +50,12 @@ export default function Hero() {
             <div className="max-w-5xl mx-auto space-y-10 z-10">
                 <div className="overflow-hidden">
                     <h1 ref={titleRef} className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-neutral-400 leading-[1.1] pb-4">
-                        Your Complete <br />Digital Business Partner.
+                        Professional IT & <br />Digital Solutions.
                     </h1>
                 </div>
 
                 <p ref={subtitleRef} className="text-xl md:text-2xl text-neutral-400 max-w-3xl mx-auto leading-relaxed opacity-0">
-                    DIGIVIXO integrates global dropshipping, wholesale operations, five core digital services, and practical education—so you can learn, execute, and scale all in one place.
+                    Digivixo delivers high-performance website development, custom web applications, and intelligent automation services to help businesses scale and succeed in the digital age.
                 </p>
 
                 <div ref={ctaRef} className="flex flex-col md:flex-row gap-6 justify-center items-center opacity-0 pt-4 mb-2">

@@ -9,28 +9,40 @@ export default function ServiceFAQ() {
 
     const faqs = [
         {
-            question: "What digital services does DIGIVIXO offer?",
-            answer: "DIGIVIXO provides five core digital services: Website Development, AI & ML Solutions, Digital Marketing & Social Media Marketing, Shopify Store Setup & Management, and Amazon Store Setup & Management."
+            question: "What core digital services does Digivixo offer?",
+            answer: "Digivixo specializes in a comprehensive suite of IT and E-commerce pillars: Custom Website Development, Web Applications & SaaS solutions, Graphic Design, Shopify Platform Engineering, Amazon Marketplace Management, Digital Marketing & Social Media, WordPress Development, and Intelligent Automation & AI services."
         },
         {
-            question: "What is the DIGIVIXO LMS and who is it for?",
-            answer: "Our LMS aggregates premium global courses that normally cost hundreds or thousands of dollars, offering students access for 10,000–15,000 PKR. It's designed for founders, students, and businesses looking to learn practical, market-relevant skills."
+            question: "Does Digivixo provide custom Shopify development?",
+            answer: "Yes, we specialize in professional Shopify engineering, including bespoke theme development, advanced app integration, and headless commerce solutions for high-growth brands."
         },
         {
-            question: "Can DIGIVIXO help with both Shopify and Amazon stores?",
-            answer: "Yes! We offer complete setup and management for both Shopify and Amazon stores, including store creation, product listings, optimization, and ongoing operations handling."
+            question: "How does your Amazon management service work?",
+            answer: "We provide data-driven Amazon Private Label management, focusing on A9 SEO, PPC optimization, account health monitoring, and strategic marketplace expansion to drive consistent growth."
         },
         {
-            question: "Does DIGIVIXO offer AI chatbot development?",
-            answer: "Absolutely. Our AI & ML Solutions pillar includes AI chatbot development, automation workflows, and machine learning models tailored to improve your business efficiency."
+            question: "How does your digital marketing approach drive ROI?",
+            answer: "We focus on data-driven performance marketing. By combining technical SEO, precise audience segmentation on Meta and TikTok, and optimized Google Ads campaigns, we ensure every marketing dollar is focused on high-value conversions."
         },
         {
-            question: "What's the difference between dropshipping and wholesale services?",
-            answer: "Dropshipping has no minimum order quantity—we handle fulfillment for individual orders. Wholesale is for bulk ordering with competitive pricing, ideal for established brands scaling their inventory."
+            question: "Does Digivixo handle custom WordPress requirements?",
+            answer: "Absolutely. We specialize in custom WordPress engineering, including bespoke theme development from scratch, custom plugin creation, and advanced performance optimization to ensure your CMS is enterprise-grade."
         },
         {
-            question: "How is DIGIVIXO qualified to teach these skills?",
-            answer: "Our founders have 2–3 years of hands-on teaching experience locally and internationally. We understand real student learning gaps and focus on practical, outcome-based education rather than just theory."
+            question: "Does Digivixo provide end-to-end software development?",
+            answer: "Yes, we handle the entire development lifecycle, from initial discovery and strategy to UI/UX design, technical implementation, deployment, and ongoing optimization."
+        },
+        {
+            question: "Can you help optimize existing digital platforms?",
+            answer: "Absolutely. We provide comprehensive audits and optimization services for existing systems, focusing on performance enhancement, security hardening, and better user experience."
+        },
+        {
+            question: "What is your approach to UI/UX design?",
+            answer: "Our design process is user-centered and data-driven. We focus on creating intuitive interfaces that reduce friction, ensure brand consistency, and follow international accessibility standards."
+        },
+        {
+            question: "Do you offer long-term support and maintenance?",
+            answer: "Yes, we provide robust Service Level Agreements (SLAs) that include ongoing maintenance, security patches, and technical support to ensure your digital solutions remain high-performing and secure."
         }
     ];
 

@@ -14,24 +14,24 @@ export default function TechStackGrid() {
     const containerRef = useRef(null);
     const stack = [
         {
-            category: "Frontend Architecture",
+            category: "Technical Performance",
             icon: <Cpu className="w-6 h-6 text-accent" />,
-            items: ["Next.js 14 App Router", "React Server Components", "Tailwind CSS 4.0", "Framer Motion / GSAP"]
+            items: ["High-Speed Load Times", "Optimized Core Web Vitals", "Scalable Infrastructure", "Adaptive User Interfaces"]
         },
         {
-            category: "Backend Infrastructure",
+            category: "Operational Integrity",
             icon: <Server className="w-6 h-6 text-gold" />,
-            items: ["Node.js Microservices", "Redis Caching Layer", "GraphQL API Gateway", "Docker Containerization"]
+            items: ["99.9% Service Uptime", "Redundant System Backups", "Real-time Monitoring", "Seamless Data Integration"]
         },
         {
-            category: "Data Integrity",
+            category: "Security & Compliance",
             icon: <Database className="w-6 h-6 text-emerald-500" />,
-            items: ["PostgreSQL (TimescaleDB)", "AES-256 Encryption", "Daily Offsite Backups", "GDPR Compliance Suite"]
+            items: ["Advanced Data Encryption", "Secure Access Protocols", "Privacy Standard Compliance", "Regular Security Audits"]
         },
         {
-            category: "Cloud Operations",
+            category: "Deployment Excellence",
             icon: <Cloud className="w-6 h-6 text-purple-500" />,
-            items: ["AWS (Lambda, S3, RDS)", "Cloudflare Edge Network", "Kubernetes Orchestration", "Multi-Region Failover"]
+            items: ["Global Service Delivery", "Automated Release Pipeline", "Continuous Quality Assurance", "Multi-Region Availability"]
         }
     ];
 
@@ -53,9 +53,9 @@ export default function TechStackGrid() {
         <section ref={containerRef} className="py-24 px-6 bg-card border-y border-white/10">
             <div className="max-w-7xl mx-auto space-y-12">
                 <div className="text-center">
-                    <h2 className="text-3xl font-bold mb-4">Proprietary Tech Stack</h2>
+                    <h2 className="text-3xl font-bold mb-4">Quality Benchmarks</h2>
                     <p className="text-neutral-500 max-w-2xl mx-auto">
-                        We don't rely on third-party plugins. We built our own logistics operating system (LogOS) from the ground up to ensure millisecond-latency inventory syncing.
+                        We adhere to the highest industry standards to ensure every digital solution we deliver is reliable, secure, and built for long-term performance.
                     </p>
                 </div>
 

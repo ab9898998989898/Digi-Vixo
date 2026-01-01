@@ -1,6 +1,6 @@
 import Hero from "@/components/home/Hero";
 import ServicesPreview from "@/components/home/ServicesPreview";
-import DigitalProducts from "@/components/home/DigitalProducts";
+import DesignPreview from "@/components/home/DesignPreview";
 import TeamPreview from "@/components/home/TeamPreview";
 import WhyChooseUs from "@/components/home/revamp/WhyChooseUs";
 import Process from "@/components/home/revamp/Process";
@@ -18,7 +18,7 @@ export default function Home() {
       <ServicesPreview />
       <Process />
       <SuccessStories />
-      <DigitalProducts />
+      <DesignPreview />
       <TeamPreview />
     </main>
   );

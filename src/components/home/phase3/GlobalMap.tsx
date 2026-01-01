@@ -34,11 +34,11 @@ export default function GlobalMap() {
     }, []);
 
     const hotspots = [
-        { top: "30%", left: "20%", label: "North America Hub" }, // US
-        { top: "35%", left: "48%", label: "EU Logistics Center" }, // Europe
-        { top: "40%", left: "75%", label: "Shenzhen HQ" }, // China
-        { top: "65%", left: "85%", label: "Australia Fulfillment" }, // Aus
-        { top: "55%", left: "60%", label: "Dubai Regional Office" }, // UAE
+        { top: "30%", left: "20%", label: "Strategic Technical Hub" },
+        { top: "35%", left: "48%", label: "Technical Operations Center" },
+        { top: "40%", left: "75%", label: "Asia-Pacific Technical Hub" },
+        { top: "65%", left: "85%", label: "Regional Project Office" },
+        { top: "55%", left: "60%", label: "Middle East Strategic Hub" },
     ];
 
     return (
@@ -89,7 +89,7 @@ export default function GlobalMap() {
 
             <div className="max-w-4xl mx-auto mt-16 text-center">
                 <p className="text-xl text-neutral-400">
-                    Our decentralized warehousing network places your products within 72 hours of 80% of the world's purchasing power. We don't just ship; we teleport.
+                    Our global technical presence ensures 24/7 operational continuity and professional support for businesses across all major time zones. We provide seamless digital transformation, delivered globally.
                 </p>
             </div>
         </section>

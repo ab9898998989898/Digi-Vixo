@@ -14,28 +14,28 @@ export default function SuccessStories() {
     const containerRef = useRef(null);
     const stories = [
         {
-            brand: "Luminary Skin",
-            metric: "$2.4M",
-            timeframe: "Year 1 Revenue",
-            quote: "Digivixo stabilized our supply chain when we went viral on TikTok. We scaled from 50 to 5000 orders a day without a single hiccup.",
+            brand: "FinStream",
+            metric: "99.9%",
+            timeframe: "Up-time achieved",
+            quote: "Digivixo re-engineered our core platform architecture, allowing us to handle 10x our previous user load with zero performance degradation.",
             founder: "Sarah Jenkins",
-            role: "CEO"
+            role: "CTO"
         },
         {
-            brand: "TechNova",
-            metric: "300%",
-            timeframe: "Margin Increase",
-            quote: "Moving our wholesale production to Digivixo's vetted factories cut our COGS in half while improving build quality. Game changer.",
+            brand: "Nexus Digital",
+            metric: "65%",
+            timeframe: "Efficiency Increase",
+            quote: "The custom automation workflows implemented by Digivixo eliminated months of manual data processing, letting our team focus on strategic growth.",
             founder: "Marcus Thorne",
-            role: "Founder"
+            role: "Managing Director"
         },
         {
-            brand: "EcoWare",
-            metric: "12",
-            timeframe: "Countries Launched",
-            quote: "The global logistics network allowed us to penetrate the EU and Australian markets simultaneously. Truly a borderless partner.",
+            brand: "Apex Global",
+            metric: "4",
+            timeframe: "Global Regions Scaled",
+            quote: "Their UI/UX design and scalable web infrastructure allowed us to localize our digital presence across four continents with complete brand consistency.",
             founder: "Elena Rodriguez",
-            role: "COO"
+            role: "Head of Digital"
         }
     ];
 

@@ -45,23 +45,23 @@ export default function Process() {
     const steps = [
         {
             number: "01",
-            title: "Strategy Session",
-            content: "We begin by dissecting your brand goals. Whether you're launching a new dropshipping store or scaling a wholesale operation, we map out the precise supply chain architecture you need."
+            title: "Discovery & Strategy",
+            content: "We begin by understanding your business objectives and technical requirements. Our team conducts a thorough analysis to define a roadmap that ensures your digital products align with your commercial goals."
         },
         {
             number: "02",
-            title: "Sourcing & Vetting",
-            content: "Our agents in key manufacturing hubs (China, Vietnam, Turkey) identify the best suppliers. We negotiate terms, audit factories, and secure prototypes for your approval."
+            title: "Custom Design & UI/UX",
+            content: "We create high-fidelity prototypes and intuitive user interfaces. Our design process focuses on clarity, accessibility, and brand consistency to provide a seamless experience across all digital touchpoints."
         },
         {
             number: "03",
-            title: "Integration & Launch",
-            content: "We connect our logistics backend to your frontend store. Products go live, and our automated fulfillment systems stand by to process orders the moment they come in."
+            title: "Technical Development",
+            content: "Our developers build scalable, high-performance solutions using industry best practices. We ensure your website or application is secure, fast, and fully integrated with your existing business systems."
         },
         {
             number: "04",
-            title: "Scale & Optimize",
-            content: "Launch is just the start. We continuously monitor shipping times, product quality, and customer feedback, optimizing the supply chain in real-time to maximize your margins."
+            title: "Deployment & Optimization",
+            content: "Beyond the launch, we provide ongoing support and performance monitoring. We use data-driven insights to continuously optimize your digital presence, ensuring long-term stability and growth."
         }
     ];
 
