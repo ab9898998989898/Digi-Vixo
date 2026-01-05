@@ -3,6 +3,8 @@ import Footer from "@/components/layout/Footer";
 import SmoothScroller from "@/components/layout/SmoothScroller";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
+import Link from "next/link";
+import Script from "next/script";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -88,6 +90,19 @@ export default function RootLayout({
       <body
         className={`${inter.variable} antialiased font-sans`}
       >
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-JYGJRBSK5L"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-JYGJRBSK5L');
+          `}
+        </Script>
         <SmoothScroller>
           <JsonLd />
           <Header />
