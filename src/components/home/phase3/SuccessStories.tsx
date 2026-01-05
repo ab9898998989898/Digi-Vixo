@@ -14,28 +14,28 @@ export default function SuccessStories() {
     const containerRef = useRef(null);
     const stories = [
         {
-            brand: "FinStream",
+            brand: "Enterprise FinTech Client",
             metric: "99.9%",
             timeframe: "Up-time achieved",
             quote: "Digivixo re-engineered our core platform architecture, allowing us to handle 10x our previous user load with zero performance degradation.",
-            founder: "Sarah Jenkins",
-            role: "CTO"
+            founder: "Chief Technology Officer",
+            role: "Confidential Partner"
         },
         {
-            brand: "Nexus Digital",
+            brand: "Global Logistics Firm",
             metric: "65%",
             timeframe: "Efficiency Increase",
             quote: "The custom automation workflows implemented by Digivixo eliminated months of manual data processing, letting our team focus on strategic growth.",
-            founder: "Marcus Thorne",
-            role: "Managing Director"
+            founder: "Managing Director",
+            role: "Confidential Partner"
         },
         {
-            brand: "Apex Global",
+            brand: "International SaaS Provider",
             metric: "4",
             timeframe: "Global Regions Scaled",
             quote: "Their UI/UX design and scalable web infrastructure allowed us to localize our digital presence across four continents with complete brand consistency.",
-            founder: "Elena Rodriguez",
-            role: "Head of Digital"
+            founder: "Head of Digital Product",
+            role: "Confidential Partner"
         }
     ];
 

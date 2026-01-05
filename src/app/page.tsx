@@ -7,6 +7,7 @@ import Process from "@/components/home/revamp/Process";
 import ImpactMetrics from "@/components/home/phase3/ImpactMetrics";
 import GlobalMap from "@/components/home/phase3/GlobalMap";
 import SuccessStories from "@/components/home/phase3/SuccessStories";
+import AiProductPreview from "@/components/home/AiProductPreview";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <WhyChooseUs />
       <GlobalMap />
       <ServicesPreview />
+      <AiProductPreview />
       <Process />
       <SuccessStories />
       <DesignPreview />

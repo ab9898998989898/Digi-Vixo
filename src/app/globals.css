@@ -4,35 +4,36 @@
   Using a consistent Zinc-based palette for a premium feel.
 */
 :root {
-  /* ENFORCED DARK THEME (Professional: Rich Black/Gold) */
+  /* ENFORCED DARK THEME (Professional: High-Contrast) */
   color-scheme: dark;
-  /* Backgrounds: Deep Black for maximum contrast with Gold */
-  --background: #0a0a0a;
-  --foreground: #e0e6e8;
+  /* Background: #050505 (Deep Black) */
+  --background: #050505;
+  --foreground: #ffffff;
 
-  /* Cards: Dark Gray */
-  --card: #141414;
-  --card-foreground: #e0e6e8;
+  /* Surface/Cards: #121212 */
+  --card: #121212;
+  --card-foreground: #ffffff;
 
-  --primary: #d4af37;
-  /* Gold as primary */
-  --primary-foreground: #000000;
+  /* Primary Accent: #3B82F6 (Electric Blue) */
+  --primary: #3B82F6;
+  --primary-foreground: #ffffff;
 
   --muted: #404040;
   --border: #262626;
 
-  /* ACCENTS */
-  --accent: #d4af37;
-  --accent-foreground: #000000;
+  /* Accents */
+  --accent: #3B82F6;
+  --accent-foreground: #ffffff;
 
-  --gold: #d4af37;
-  --red: #e53e3e;
+  --brand-blue: #3B82F6;
+  --surface: #121212;
 }
 
 
-html{
+html {
   scroll-behavior: smooth;
 }
+
 /* 
    We keep the media query block empty or remove it because 
    we want the dark variables to be the DEFAULT for everyone.
@@ -60,12 +61,13 @@ html{
   --color-muted: var(--muted);
   --color-border: var(--border);
 
-  --color-gold: var(--gold);
-  --color-red: var(--red);
+  --color-gold: var(--brand-blue);
+  /* Mapping old variable to new for compatibility, or remove if unused */
+  --color-brand-blue: var(--brand-blue);
+  --color-surface: var(--surface);
 
   /* Linking fonts correctly */
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
 
 /* GLOBAL RESETS */
@@ -76,6 +78,8 @@ body {
   color: var(--foreground);
   /* Use the variable font, fall back to sans-serif */
   font-family: var(--font-sans);
+  letter-spacing: -0.02em;
+  /* Tight letter spacing for modern feel */
   -webkit-font-smoothing: antialiased;
   /* Makes text look thinner/cleaner */
   -moz-osx-font-smoothing: grayscale;
