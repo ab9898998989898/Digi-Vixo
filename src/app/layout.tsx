@@ -91,18 +91,20 @@ export default function RootLayout({
         className={`${inter.variable} antialiased font-sans`}
       >
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-JYGJRBSK5L"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+  src="/1mnw/gtag/js?id=G-JYGJRBSK5L"
+  strategy="afterInteractive"
+/>
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-            gtag('config', 'G-JYGJRBSK5L');
-          `}
-        </Script>
+    gtag('config', 'G-JYGJRBSK5L', {
+      'transport_url': '/1mnw'
+    });
+  `}
+</Script>
         <SmoothScroller>
           <JsonLd />
           <Header />
