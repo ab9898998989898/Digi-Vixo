@@ -8,6 +8,15 @@ import ImpactMetrics from "@/components/home/phase3/ImpactMetrics";
 import GlobalMap from "@/components/home/phase3/GlobalMap";
 import SuccessStories from "@/components/home/phase3/SuccessStories";
 import AiProductPreview from "@/components/home/AiProductPreview";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Digivixo | Enterprise Web Development & AI Solutions",
+  description: "Scale your business with Digivixo's expert web development, custom software, and AI automation services. We build high-performance digital solutions.",
+  alternates: {
+    canonical: 'https://digivixo.site',
+  }
+};
 
 export default function Home() {
   return (

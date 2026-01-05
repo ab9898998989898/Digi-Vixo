@@ -13,8 +13,69 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Digivixo | Professional IT & Digital Business Solutions",
+  metadataBase: new URL('https://digivixo.site'),
+  title: {
+    default: 'Digivixo | Professional IT & Digital Business Solutions',
+    template: '%s | Digivixo'
+  },
   description: "Digivixo provides professional website development, custom web applications, automation, and AI-driven solutions for growing businesses.",
+  keywords: ["website development", "web applications", "AI solutions", "automation", "IT services", "digital transformation", "Next.js development", "software engineering"],
+  authors: [{ name: "Digivixo Team" }],
+  creator: "Digivixo",
+  publisher: "Digivixo",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    title: 'Digivixo | Professional IT & Digital Business Solutions',
+    description: 'Transform your business with Digivixo\'s professional IT solutions. We specialize in web development, AI integration, and digital automation.',
+    url: 'https://digivixo.site',
+    siteName: 'Digivixo',
+    locale: 'en_US',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image.jpg', // We should ensure this exists or use a generator
+        width: 1200,
+        height: 630,
+        alt: 'Digivixo - Professional IT Solutions',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Digivixo | Professional IT & Digital Business Solutions',
+    description: 'Expert web development and AI solutions for modern businesses.',
+    creator: '@digivixo',
+    images: ['/twitter-image.jpg'], // We should ensure this exists
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: '/',
+  },
+  icons: {
+    icon: '/icon.png',
+    apple: '/apple-icon.png',
+  },
+  manifest: '/manifest.json',
+};
+
+export const viewport = {
+  themeColor: 'black',
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({
