@@ -32,7 +32,7 @@ export default function ContactPage() {
                                 <div>
                                     <h3 className="font-bold mb-1">Email Us</h3>
                                     <p className="text-neutral-500 text-sm mb-2">For general inquiries and support:</p>
-                                    <a href="mailto:contact@digivixo.com" className="text-lg font-medium hover:underline">contact@digivixo.com</a>
+                                    <a href="mailto:contact@digivixo.site" className="text-lg font-medium hover:underline">contact@digivixo.site</a>
                                 </div>
                             </div>
 

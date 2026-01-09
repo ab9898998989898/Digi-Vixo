@@ -14,28 +14,28 @@ export default function SuccessStories() {
     const containerRef = useRef(null);
     const stories = [
         {
-            brand: "Enterprise FinTech Client",
-            metric: "99.9%",
-            timeframe: "Up-time achieved",
-            quote: "Digivixo re-engineered our core platform architecture, allowing us to handle 10x our previous user load with zero performance degradation.",
-            founder: "Chief Technology Officer",
-            role: "Confidential Partner"
+            brand: "Financial Services Startup",
+            metric: "99.5%",
+            timeframe: "Uptime Achieved",
+            quote: "The team re-architected our payment processing platform to handle peak transaction loads. The system now processes thousands of transactions daily without performance issues.",
+            founder: "Technical Lead",
+            role: "London-based FinTech"
         },
         {
-            brand: "Global Logistics Firm",
-            metric: "65%",
-            timeframe: "Efficiency Increase",
-            quote: "The custom automation workflows implemented by Digivixo eliminated months of manual data processing, letting our team focus on strategic growth.",
-            founder: "Managing Director",
-            role: "Confidential Partner"
+            brand: "E-commerce Brand",
+            metric: "40%",
+            timeframe: "Efficiency Gain",
+            quote: "Their Shopify customization and automation workflows reduced our order processing time significantly, allowing our operations team to focus on customer experience.",
+            founder: "Operations Manager",
+            role: "Fashion Retail"
         },
         {
-            brand: "International SaaS Provider",
-            metric: "4",
-            timeframe: "Global Regions Scaled",
-            quote: "Their UI/UX design and scalable web infrastructure allowed us to localize our digital presence across four continents with complete brand consistency.",
-            founder: "Head of Digital Product",
-            role: "Confidential Partner"
+            brand: "B2B Software Company",
+            metric: "3",
+            timeframe: "Markets Launched",
+            quote: "Digivixo helped us adapt our SaaS platform for multiple regional markets with localized interfaces and compliance requirements handled seamlessly.",
+            founder: "Product Director",
+            role: "UK Software Firm"
         }
     ];
 

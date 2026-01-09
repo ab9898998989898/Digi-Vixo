@@ -1,5 +1,6 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import CookieConsent from "@/components/layout/CookieConsent";
 import SmoothScroller from "@/components/layout/SmoothScroller";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
@@ -91,11 +92,11 @@ export default function RootLayout({
         className={`${inter.variable} antialiased font-sans`}
       >
         <Script
-  src="/1mnw/gtag/js?id=G-JYGJRBSK5L"
-  strategy="afterInteractive"
-/>
-<Script id="google-analytics" strategy="afterInteractive">
-  {`
+          src="/1mnw/gtag/js?id=G-JYGJRBSK5L"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -104,7 +105,7 @@ export default function RootLayout({
       'transport_url': '/1mnw'
     });
   `}
-</Script>
+        </Script>
         <SmoothScroller>
           <JsonLd />
           <Header />
@@ -112,6 +113,7 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
+          <CookieConsent />
         </SmoothScroller>
       </body>
     </html>

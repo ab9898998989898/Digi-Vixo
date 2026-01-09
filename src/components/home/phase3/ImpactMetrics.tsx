@@ -40,10 +40,10 @@ export default function ImpactMetrics() {
     }, []);
 
     const metrics = [
-        { label: "Projects Completed", value: 50, suffix: "+", color: "text-accent" },
-        { label: "Client Satisfaction", value: 99, suffix: "%", color: "text-gold" },
-        { label: "Hours Saved Hourly", value: 200, suffix: "+", color: "text-emerald-500" },
-        { label: "Solutions Delivered", value: 30, suffix: "+", color: "text-purple-500" }
+        { label: "Projects Delivered", value: 35, suffix: "+", color: "text-accent" },
+        { label: "Client Retention Rate", value: 94, suffix: "%", color: "text-gold" },
+        { label: "Hours Saved Weekly", value: 120, suffix: "+", color: "text-emerald-500" },
+        { label: "Active Clients", value: 12, suffix: "+", color: "text-purple-500" }
     ];
 
     return (
