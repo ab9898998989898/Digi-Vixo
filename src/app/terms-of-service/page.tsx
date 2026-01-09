@@ -197,7 +197,7 @@ export default function TermsOfServicePage() {
                         </p>
                         <div className="bg-neutral-900 p-6 rounded-2xl border border-neutral-800 space-y-2">
                             <p className="text-white font-semibold">Digivixo</p>
-                            <p className="text-neutral-400">Email: <a href="mailto:contact@digivixo.site" className="text-accent hover:underline">contact@digivixo.site</a></p>
+                            <p className="text-neutral-400">Email: <a href="mailto:contact@digivixo.com" className="text-accent hover:underline">contact@digivixo.com</a></p>
                             <p className="text-neutral-400">Address: 22 Southville Road, Feltham, Middlesex, London, TW14 8AU</p>
                         </div>
                     </section>

@@ -27,8 +27,8 @@ export default function Footer() {
                     </div>
                     <div className="flex flex-col gap-4">
                         <h3 className="text-sm uppercase tracking-widest text-neutral-500">Connect</h3>
-                        <a href="https://www.linkedin.com/company/digivixo" className="hover:text-neutral-400 transition-colors">LinkedIn</a>
-                        <a href="mailto:contact@digivixo.site" className="hover:text-neutral-400 transition-colors">Email Us</a>
+                        <a href="https://www.linkedin.com/company/digi-vixo/" className="hover:text-neutral-400 transition-colors">LinkedIn</a>
+                        <a href="mailto:contact@digivixo.com" className="hover:text-neutral-400 transition-colors">Email Us</a>
                     </div>
                 </div>
             </div>
