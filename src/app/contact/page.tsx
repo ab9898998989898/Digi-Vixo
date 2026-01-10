@@ -32,7 +32,7 @@ export default function ContactPage() {
                                 <div>
                                     <h3 className="font-bold mb-1">Email Us</h3>
                                     <p className="text-neutral-500 text-sm mb-2">For general inquiries and support:</p>
-                                    <a href="mailto:contact@digivixo.site" className="text-lg font-medium hover:underline">contact@digivixo.site</a>
+                                    <a href="mailto:contact@digivixo.com" className="text-lg font-medium hover:underline">contact@digivixo.com</a>
                                 </div>
                             </div>
 
@@ -53,8 +53,8 @@ export default function ContactPage() {
                                     <Phone className="w-6 h-6" />
                                 </div>
                                 <div>
-                                    <h3 className="font-bold mb-1">Operating Hours</h3>
-                                    <p className="text-neutral-500">Mon - Fri: 9:00 AM - 6:00 PM (GST)</p>
+                                    <h3 className="font-bold mb-1">Contact Us</h3>
+                                    <a href="tel:+14254778523" className="text-lg font-medium hover:underline">+1 (425) 477-8523 </a>
                                 </div>
                             </div>
                         </div>
